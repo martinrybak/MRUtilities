@@ -88,9 +88,8 @@
 	CAAnimation* animation = parameters[0];
 	void(^action)(void) = parameters[1];
 	
-	if (action) {
-		action();
-	}
+	if (action)
+        action();
 	
     [self.layer addAnimation:animation forKey:@"animation"];
 }

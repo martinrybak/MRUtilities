@@ -23,8 +23,6 @@ typedef enum
 
 #pragma mark - Public methods
 
-//TODO: look into why applying rotation after bounce reverts image back to original aspect
-
 - (void)addSubviewWithBounce:(UIView*)view from:(Direction)direction;
 {
     [self addSubviewWithBounce:view from:direction duration:DEFAULT_DURATION delay:0.0 completion:nil];
@@ -46,8 +44,6 @@ typedef enum
     view.hidden = YES;
     
     //Add the view as a subview so moveOffRight: and moveOffBottom: can access superview in their calculations
-    //TODO: fix so this is not necessary
-	
 	[self addSubview:view];
     
     //The current view's frame is where we want to end up
@@ -93,13 +89,12 @@ typedef enum
 	}
 	
 	//Append to the original passed-in completion block
-    __weak UIView* weakself = self;
-	__weak UIView* weakview = view;
+    __weak typeof(self) weakself = self;
     void(^newCompletion)(BOOL) = ^(BOOL finished) {
         if(completion)
             completion(finished);
         [weakself setUserInteractionEnabled:YES]; //Enable user interaction
-		weakview.frame = endFrame; //Update the layer's frame to what it was at the beginning
+		view.frame = endFrame; //Update the layer's frame to what it was at the beginning
     };
     
     //Set additional animation settings
@@ -177,7 +172,7 @@ typedef enum
 	}
 	
 	//Append to the original passed-in completion block
-    __weak UIView* weakself = self;
+    __weak typeof(self) weakself = self;
     void(^newCompletion)(BOOL) = ^(BOOL finished) {
         if(completion)
             completion(finished);
@@ -191,9 +186,7 @@ typedef enum
 	animation.fillMode = kCAFillModeForwards;
 	animation.removedOnCompletion = NO;
 
-    //Perform animation
-    //[self performSelector:@selector(performAnimation:) withObject:animation afterDelay:delay];
-	
+    //Perform animation	
 	[self performAnimation:animation afterDelay:delay andAfter:nil];
     
     //Update the layer's frame
