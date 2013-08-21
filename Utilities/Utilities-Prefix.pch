@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Utilities' target in the 'Utilities' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+#endif
