@@ -8,14 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		5B3FD5ED17C4E27100DEAC6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3FD5EC17C4E27100DEAC6B /* Foundation.framework */; };
-		5B3FD5F217C4E27100DEAC6B /* Utilities.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B3FD5F117C4E27100DEAC6B /* Utilities.h */; };
-		5B3FD5F417C4E27100DEAC6B /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FD5F317C4E27100DEAC6B /* Utilities.m */; };
 		5B3FD5FC17C4E27100DEAC6B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3FD5FB17C4E27100DEAC6B /* SenTestingKit.framework */; };
 		5B3FD5FE17C4E27100DEAC6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3FD5FD17C4E27100DEAC6B /* UIKit.framework */; };
 		5B3FD5FF17C4E27100DEAC6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3FD5EC17C4E27100DEAC6B /* Foundation.framework */; };
 		5B3FD60217C4E27100DEAC6B /* libUtilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3FD5E917C4E27100DEAC6B /* libUtilities.a */; };
 		5B3FD60817C4E27100DEAC6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B3FD60617C4E27100DEAC6B /* InfoPlist.strings */; };
 		5B3FD60B17C4E27100DEAC6B /* UtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FD60A17C4E27100DEAC6B /* UtilitiesTests.m */; };
+		5B3FD61A17C4E28900DEAC6B /* UIView+Bounce.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FD61517C4E28900DEAC6B /* UIView+Bounce.m */; };
+		5B3FD61B17C4E28900DEAC6B /* UIView+Bounce.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FD61517C4E28900DEAC6B /* UIView+Bounce.m */; };
+		5B3FD61C17C4E28900DEAC6B /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FD61717C4E28900DEAC6B /* UIView+Animation.m */; };
+		5B3FD61D17C4E28900DEAC6B /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FD61717C4E28900DEAC6B /* UIView+Animation.m */; };
+		5B3FD61E17C4E28900DEAC6B /* UIView+XIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FD61917C4E28900DEAC6B /* UIView+XIB.m */; };
+		5B3FD61F17C4E28900DEAC6B /* UIView+XIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FD61917C4E28900DEAC6B /* UIView+XIB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +39,6 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				5B3FD5F217C4E27100DEAC6B /* Utilities.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,8 +48,6 @@
 		5B3FD5E917C4E27100DEAC6B /* libUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUtilities.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B3FD5EC17C4E27100DEAC6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B3FD5F017C4E27100DEAC6B /* Utilities-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Utilities-Prefix.pch"; sourceTree = "<group>"; };
-		5B3FD5F117C4E27100DEAC6B /* Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
-		5B3FD5F317C4E27100DEAC6B /* Utilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
 		5B3FD5FA17C4E27100DEAC6B /* UtilitiesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtilitiesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B3FD5FB17C4E27100DEAC6B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		5B3FD5FD17C4E27100DEAC6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -54,6 +55,12 @@
 		5B3FD60717C4E27100DEAC6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B3FD60917C4E27100DEAC6B /* UtilitiesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilitiesTests.h; sourceTree = "<group>"; };
 		5B3FD60A17C4E27100DEAC6B /* UtilitiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilitiesTests.m; sourceTree = "<group>"; };
+		5B3FD61417C4E28900DEAC6B /* UIView+Bounce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Bounce.h"; sourceTree = "<group>"; };
+		5B3FD61517C4E28900DEAC6B /* UIView+Bounce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Bounce.m"; sourceTree = "<group>"; };
+		5B3FD61617C4E28900DEAC6B /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
+		5B3FD61717C4E28900DEAC6B /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
+		5B3FD61817C4E28900DEAC6B /* UIView+XIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XIB.h"; sourceTree = "<group>"; };
+		5B3FD61917C4E28900DEAC6B /* UIView+XIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XIB.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +118,12 @@
 		5B3FD5EE17C4E27100DEAC6B /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				5B3FD5F117C4E27100DEAC6B /* Utilities.h */,
-				5B3FD5F317C4E27100DEAC6B /* Utilities.m */,
+				5B3FD61417C4E28900DEAC6B /* UIView+Bounce.h */,
+				5B3FD61517C4E28900DEAC6B /* UIView+Bounce.m */,
+				5B3FD61617C4E28900DEAC6B /* UIView+Animation.h */,
+				5B3FD61717C4E28900DEAC6B /* UIView+Animation.m */,
+				5B3FD61817C4E28900DEAC6B /* UIView+XIB.h */,
+				5B3FD61917C4E28900DEAC6B /* UIView+XIB.m */,
 				5B3FD5EF17C4E27100DEAC6B /* Supporting Files */,
 			);
 			path = Utilities;
@@ -243,7 +254,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B3FD5F417C4E27100DEAC6B /* Utilities.m in Sources */,
+				5B3FD61A17C4E28900DEAC6B /* UIView+Bounce.m in Sources */,
+				5B3FD61C17C4E28900DEAC6B /* UIView+Animation.m in Sources */,
+				5B3FD61E17C4E28900DEAC6B /* UIView+XIB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B3FD60B17C4E27100DEAC6B /* UtilitiesTests.m in Sources */,
+				5B3FD61B17C4E28900DEAC6B /* UIView+Bounce.m in Sources */,
+				5B3FD61D17C4E28900DEAC6B /* UIView+Animation.m in Sources */,
+				5B3FD61F17C4E28900DEAC6B /* UIView+XIB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
