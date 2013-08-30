@@ -20,6 +20,7 @@
 		5B3FD61D17C4E28900DEAC6B /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FD61717C4E28900DEAC6B /* UIView+Animation.m */; };
 		5B3FD61E17C4E28900DEAC6B /* UIView+XIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FD61917C4E28900DEAC6B /* UIView+XIB.m */; };
 		5B3FD61F17C4E28900DEAC6B /* UIView+XIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FD61917C4E28900DEAC6B /* UIView+XIB.m */; };
+		5B733AD917D0B916002237FB /* NSString+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B733AD817D0B916002237FB /* NSString+Helpers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		5B3FD61717C4E28900DEAC6B /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
 		5B3FD61817C4E28900DEAC6B /* UIView+XIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XIB.h"; sourceTree = "<group>"; };
 		5B3FD61917C4E28900DEAC6B /* UIView+XIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XIB.m"; sourceTree = "<group>"; };
+		5B733AD717D0B916002237FB /* NSString+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helpers.h"; sourceTree = "<group>"; };
+		5B733AD817D0B916002237FB /* NSString+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helpers.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				5B3FD61817C4E28900DEAC6B /* UIView+XIB.h */,
 				5B3FD61917C4E28900DEAC6B /* UIView+XIB.m */,
 				5B3FD5EF17C4E27100DEAC6B /* Supporting Files */,
+				5B733AD717D0B916002237FB /* NSString+Helpers.h */,
+				5B733AD817D0B916002237FB /* NSString+Helpers.m */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -257,6 +262,7 @@
 				5B3FD61A17C4E28900DEAC6B /* UIView+Bounce.m in Sources */,
 				5B3FD61C17C4E28900DEAC6B /* UIView+Animation.m in Sources */,
 				5B3FD61E17C4E28900DEAC6B /* UIView+XIB.m in Sources */,
+				5B733AD917D0B916002237FB /* NSString+Helpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +425,7 @@
 				5B3FD61017C4E27100DEAC6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B3FD61117C4E27100DEAC6B /* Build configuration list for PBXNativeTarget "UtilitiesTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +434,7 @@
 				5B3FD61317C4E27100DEAC6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
