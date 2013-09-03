@@ -22,6 +22,8 @@
 		5B3FD61F17C4E28900DEAC6B /* UIView+XIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FD61917C4E28900DEAC6B /* UIView+XIB.m */; };
 		5B733AD917D0B916002237FB /* NSString+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B733AD817D0B916002237FB /* NSString+Helpers.m */; };
 		5B733ADC17D16078002237FB /* MRStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B733ADB17D16078002237FB /* MRStack.m */; };
+		5B871C5917D61A2100426BC5 /* UITextField+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B871C5817D61A2100426BC5 /* UITextField+Helpers.m */; };
+		5B871C5C17D61A4D00426BC5 /* MRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B871C5B17D61A4D00426BC5 /* MRNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,10 @@
 		5B733AD817D0B916002237FB /* NSString+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helpers.m"; sourceTree = "<group>"; };
 		5B733ADA17D16078002237FB /* MRStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRStack.h; sourceTree = "<group>"; };
 		5B733ADB17D16078002237FB /* MRStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRStack.m; sourceTree = "<group>"; };
+		5B871C5717D61A2100426BC5 /* UITextField+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Helpers.h"; sourceTree = "<group>"; };
+		5B871C5817D61A2100426BC5 /* UITextField+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Helpers.m"; sourceTree = "<group>"; };
+		5B871C5A17D61A4D00426BC5 /* MRNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRNavigationController.h; sourceTree = "<group>"; };
+		5B871C5B17D61A4D00426BC5 /* MRNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,9 +138,13 @@
 				5B3FD61717C4E28900DEAC6B /* UIView+Animation.m */,
 				5B3FD61817C4E28900DEAC6B /* UIView+XIB.h */,
 				5B3FD61917C4E28900DEAC6B /* UIView+XIB.m */,
-				5B3FD5EF17C4E27100DEAC6B /* Supporting Files */,
 				5B733AD717D0B916002237FB /* NSString+Helpers.h */,
 				5B733AD817D0B916002237FB /* NSString+Helpers.m */,
+				5B871C5717D61A2100426BC5 /* UITextField+Helpers.h */,
+				5B871C5817D61A2100426BC5 /* UITextField+Helpers.m */,
+				5B871C5A17D61A4D00426BC5 /* MRNavigationController.h */,
+				5B871C5B17D61A4D00426BC5 /* MRNavigationController.m */,
+				5B3FD5EF17C4E27100DEAC6B /* Supporting Files */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -269,6 +279,8 @@
 				5B3FD61E17C4E28900DEAC6B /* UIView+XIB.m in Sources */,
 				5B733AD917D0B916002237FB /* NSString+Helpers.m in Sources */,
 				5B733ADC17D16078002237FB /* MRStack.m in Sources */,
+				5B871C5917D61A2100426BC5 /* UITextField+Helpers.m in Sources */,
+				5B871C5C17D61A4D00426BC5 /* MRNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

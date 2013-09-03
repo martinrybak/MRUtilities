@@ -22,4 +22,26 @@
     return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 }
 
+//TODO: internationalize?
+- (BOOL)isPrice
+{
+    return [self isMatch:@"\\d*\\.\\d{1}\\d{1}"];
+}
+
+//TODO: int range check
+- (BOOL)isInteger
+{
+    return [self isMatch:@"^[\\d]*$"];
+}
+
+- (BOOL)isMatch:(NSString*)pattern
+{
+	NSError* error = nil;
+    NSRegularExpression* regex = [NSRegularExpression regularExpressionWithPattern:pattern options:0 error:&error];
+    NSRange range = [regex rangeOfFirstMatchInString:self options:0 range:NSMakeRange(0, self.length)];
+    if (NSEqualRanges(range, NSMakeRange(NSNotFound, 0)))
+        return NO;
+    return YES;
+}
+
 @end
