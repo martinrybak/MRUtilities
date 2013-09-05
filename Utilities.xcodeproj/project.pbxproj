@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B196DCC17D91AEE00E236AF /* MRTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B196DCB17D91AEE00E236AF /* MRTableViewController.m */; };
 		5B3FD5ED17C4E27100DEAC6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3FD5EC17C4E27100DEAC6B /* Foundation.framework */; };
 		5B3FD5FC17C4E27100DEAC6B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3FD5FB17C4E27100DEAC6B /* SenTestingKit.framework */; };
 		5B3FD5FE17C4E27100DEAC6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3FD5FD17C4E27100DEAC6B /* UIKit.framework */; };
@@ -49,6 +50,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5B196DCA17D91AEE00E236AF /* MRTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRTableViewController.h; sourceTree = "<group>"; };
+		5B196DCB17D91AEE00E236AF /* MRTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRTableViewController.m; sourceTree = "<group>"; };
 		5B3FD5E917C4E27100DEAC6B /* libUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUtilities.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B3FD5EC17C4E27100DEAC6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B3FD5F017C4E27100DEAC6B /* Utilities-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Utilities-Prefix.pch"; sourceTree = "<group>"; };
@@ -144,6 +147,8 @@
 				5B871C5817D61A2100426BC5 /* UITextField+Helpers.m */,
 				5B871C5A17D61A4D00426BC5 /* MRNavigationController.h */,
 				5B871C5B17D61A4D00426BC5 /* MRNavigationController.m */,
+				5B196DCA17D91AEE00E236AF /* MRTableViewController.h */,
+				5B196DCB17D91AEE00E236AF /* MRTableViewController.m */,
 				5B3FD5EF17C4E27100DEAC6B /* Supporting Files */,
 			);
 			path = Utilities;
@@ -281,6 +286,7 @@
 				5B733ADC17D16078002237FB /* MRStack.m in Sources */,
 				5B871C5917D61A2100426BC5 /* UITextField+Helpers.m in Sources */,
 				5B871C5C17D61A4D00426BC5 /* MRNavigationController.m in Sources */,
+				5B196DCC17D91AEE00E236AF /* MRTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
