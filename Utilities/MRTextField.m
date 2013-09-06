@@ -102,10 +102,8 @@
 	if ([self.textFieldDelegate respondsToSelector:@selector(textField:shouldChangeCharactersInRange:replacementString:)])
 		return [self.textFieldDelegate textField:textField shouldChangeCharactersInRange:range replacementString:string];
     
-    if (textField.text.length >= self.maxLength)
-        return NO;
-    
-	return YES;
+    int length = textField.text.length + string.length - range.length;
+    return (length <= self.maxLength);
 }
 
 //Pass through to textFieldDelegate. If not, return YES
