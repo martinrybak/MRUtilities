@@ -21,11 +21,17 @@
 
 - (void)textFieldDidEndEditing:(UITextField*)textField
 {
-    UITableViewCell* cell = (UITableViewCell*)textField.superview.superview; //TODO allow for deeper nesting
+    UITableViewCell* cell = [self cellFor:textField];
     NSIndexPath* indexPath = [self.tableView indexPathForCell:cell];
 	[self.tableView endEditing:YES];
 	[self textField:textField didUpdateAtIndexPath:indexPath];
 }
 
+- (UITableViewCell*)cellFor:(UIView*)view
+{
+    if ([view.superview isMemberOfClass:[UITableViewCell class]])
+         return (UITableViewCell*)view.superview;
+    return [self cellFor:view.superview];
+}
 
 @end
