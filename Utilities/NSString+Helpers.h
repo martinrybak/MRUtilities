@@ -10,6 +10,7 @@
 
 @interface NSString (Helpers)
 
++ (BOOL)isNilOrEmpty:(NSString*)string;
 - (BOOL)contains:(NSString*)substring;
 - (NSString*)trim;
 - (BOOL)isPrice;

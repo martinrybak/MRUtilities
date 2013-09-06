@@ -10,6 +10,13 @@
 
 @implementation NSString (Helpers)
 
++ (BOOL)isNilOrEmpty:(NSString*)string;
+{
+    if (string && string.length)
+		return NO;
+	return YES;
+}
+
 - (BOOL)contains:(NSString*)substring
 {
     NSRange range = [self rangeOfString:substring];

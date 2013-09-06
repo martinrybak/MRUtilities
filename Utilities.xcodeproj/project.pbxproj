@@ -25,6 +25,10 @@
 		5B733ADC17D16078002237FB /* MRStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B733ADB17D16078002237FB /* MRStack.m */; };
 		5B871C5917D61A2100426BC5 /* UITextField+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B871C5817D61A2100426BC5 /* UITextField+Helpers.m */; };
 		5B871C5C17D61A4D00426BC5 /* MRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B871C5B17D61A4D00426BC5 /* MRNavigationController.m */; };
+		5B94BF8617DA4B9B0081DF2F /* NSString+CoreLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B94BF8517DA4B9B0081DF2F /* NSString+CoreLocation.m */; };
+		5B94BF8817DA4BCD0081DF2F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B94BF8717DA4BCD0081DF2F /* CoreLocation.framework */; };
+		5B94BF8B17DA4BEA0081DF2F /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B94BF8A17DA4BEA0081DF2F /* NSDate+Utilities.m */; };
+		5B94BF8E17DA4DF80081DF2F /* MRTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B94BF8D17DA4DF80081DF2F /* MRTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +80,13 @@
 		5B871C5817D61A2100426BC5 /* UITextField+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Helpers.m"; sourceTree = "<group>"; };
 		5B871C5A17D61A4D00426BC5 /* MRNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRNavigationController.h; sourceTree = "<group>"; };
 		5B871C5B17D61A4D00426BC5 /* MRNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRNavigationController.m; sourceTree = "<group>"; };
+		5B94BF8417DA4B9B0081DF2F /* NSString+CoreLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CoreLocation.h"; sourceTree = "<group>"; };
+		5B94BF8517DA4B9B0081DF2F /* NSString+CoreLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CoreLocation.m"; sourceTree = "<group>"; };
+		5B94BF8717DA4BCD0081DF2F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5B94BF8917DA4BEA0081DF2F /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
+		5B94BF8A17DA4BEA0081DF2F /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
+		5B94BF8C17DA4DF80081DF2F /* MRTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRTextField.h; sourceTree = "<group>"; };
+		5B94BF8D17DA4DF80081DF2F /* MRTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B94BF8817DA4BCD0081DF2F /* CoreLocation.framework in Frameworks */,
 				5B3FD5ED17C4E27100DEAC6B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -123,6 +135,7 @@
 		5B3FD5EB17C4E27100DEAC6B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5B94BF8717DA4BCD0081DF2F /* CoreLocation.framework */,
 				5B3FD5EC17C4E27100DEAC6B /* Foundation.framework */,
 				5B3FD5FB17C4E27100DEAC6B /* SenTestingKit.framework */,
 				5B3FD5FD17C4E27100DEAC6B /* UIKit.framework */,
@@ -149,6 +162,12 @@
 				5B871C5B17D61A4D00426BC5 /* MRNavigationController.m */,
 				5B196DCA17D91AEE00E236AF /* MRTableViewController.h */,
 				5B196DCB17D91AEE00E236AF /* MRTableViewController.m */,
+				5B94BF8417DA4B9B0081DF2F /* NSString+CoreLocation.h */,
+				5B94BF8517DA4B9B0081DF2F /* NSString+CoreLocation.m */,
+				5B94BF8917DA4BEA0081DF2F /* NSDate+Utilities.h */,
+				5B94BF8A17DA4BEA0081DF2F /* NSDate+Utilities.m */,
+				5B94BF8C17DA4DF80081DF2F /* MRTextField.h */,
+				5B94BF8D17DA4DF80081DF2F /* MRTextField.m */,
 				5B3FD5EF17C4E27100DEAC6B /* Supporting Files */,
 			);
 			path = Utilities;
@@ -287,6 +306,9 @@
 				5B871C5917D61A2100426BC5 /* UITextField+Helpers.m in Sources */,
 				5B871C5C17D61A4D00426BC5 /* MRNavigationController.m in Sources */,
 				5B196DCC17D91AEE00E236AF /* MRTableViewController.m in Sources */,
+				5B94BF8617DA4B9B0081DF2F /* NSString+CoreLocation.m in Sources */,
+				5B94BF8B17DA4BEA0081DF2F /* NSDate+Utilities.m in Sources */,
+				5B94BF8E17DA4DF80081DF2F /* MRTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
