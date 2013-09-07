@@ -29,19 +29,18 @@
     return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 }
 
-//TODO: internationalize?
+//TODO: internationalize
 - (BOOL)isPrice
 {
-    return [self isMatch:@"\\d*\\.\\d{1}\\d{1}"];
+    return [self matches:@"^\\$?(\\d{1,3},?(\\d{3},?)*\\d{3}(\\.\\d{0,2})?|\\d{1,3}(\\.\\d{2}))$"];
 }
 
-//TODO: int range check
-- (BOOL)isInteger
+- (BOOL)isNumeric
 {
-    return [self isMatch:@"^[\\d]*$"];
+    return [self matches:@"^[\\d]*$"];
 }
 
-- (BOOL)isMatch:(NSString*)pattern
+- (BOOL)matches:(NSString*)pattern
 {
 	NSError* error = nil;
     NSRegularExpression* regex = [NSRegularExpression regularExpressionWithPattern:pattern options:0 error:&error];

@@ -14,6 +14,7 @@
 - (BOOL)contains:(NSString*)substring;
 - (NSString*)trim;
 - (BOOL)isPrice;
-- (BOOL)isInteger;
+- (BOOL)isNumeric;
+- (BOOL)matches:(NSString*)pattern;
 
 @end
