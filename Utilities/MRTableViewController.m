@@ -29,8 +29,10 @@
 
 - (UITableViewCell*)cellFor:(UIView*)view
 {
-    if ([view.superview isMemberOfClass:[UITableViewCell class]])
-         return (UITableViewCell*)view.superview;
+    if (!view)
+        return nil;
+    if ([view isMemberOfClass:[UITableViewCell class]])
+         return (UITableViewCell*)view;
     return [self cellFor:view.superview];
 }
 
