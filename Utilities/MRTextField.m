@@ -102,8 +102,13 @@
 	if ([self.textFieldDelegate respondsToSelector:@selector(textField:shouldChangeCharactersInRange:replacementString:)])
 		return [self.textFieldDelegate textField:textField shouldChangeCharactersInRange:range replacementString:string];
     
-    int length = textField.text.length + string.length - range.length;
-    return (length <= self.maxLength);
+    if (self.maxLength > 0)
+    {
+        int length = textField.text.length + string.length - range.length;
+        return (length <= self.maxLength);
+    }
+    
+    return YES;
 }
 
 //Pass through to textFieldDelegate. If not, return YES
@@ -141,7 +146,7 @@
     //Set this class as the delegate of its superclass, UITextField
     super.delegate = self;
     
-    //If there already is a default text set up, save it in defaultText
+    //If this field was initialized with a text value, save it in defaultText
     if (super.text)
         self.defaultText = super.text;
 }
