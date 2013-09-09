@@ -19,14 +19,29 @@
 
 #pragma mark - UITextFieldDelegate
 
+- (void)textFieldDidBeginEditing:(UITextField*)textField
+{
+    UITableViewCell* cell = [self parentCellFor:textField];
+    if (cell)
+    {
+        NSIndexPath* indexPath = [self.tableView indexPathForCell:cell];
+        [self.tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionMiddle animated:YES];
+    }
+}
+
 - (void)textFieldDidEndEditing:(UITextField*)textField
 {
-    [self.tableView endEditing:YES];
     UITableViewCell* cell = [self parentCellFor:textField];
-    NSIndexPath* indexPath = [self.tableView indexPathForCell:cell];
-	[self textFieldDidEndEditing:textField inRowAtIndexPath:indexPath];
-	[self.tableView reloadRowsAtIndexPaths:@[ indexPath ] withRowAnimation:UITableViewRowAnimationNone];
+    if (cell)
+    {
+        [self.tableView endEditing:YES];
+        NSIndexPath* indexPath = [self.tableView indexPathForCell:cell];
+        [self textFieldDidEndEditing:textField inRowAtIndexPath:indexPath];
+        [self.tableView reloadRowsAtIndexPaths:@[ indexPath ] withRowAnimation:UITableViewRowAnimationNone];
+    }
 }
+
+#pragma mark - Private
 
 - (UITableViewCell*)parentCellFor:(UIView*)view
 {
