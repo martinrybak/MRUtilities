@@ -34,7 +34,6 @@
     UITableViewCell* cell = [self parentCellFor:textField];
     if (cell)
     {
-        [self.tableView endEditing:YES];
         NSIndexPath* indexPath = [self.tableView indexPathForCell:cell];
         [self textFieldDidEndEditing:textField inRowAtIndexPath:indexPath];
         [self.tableView reloadRowsAtIndexPaths:@[ indexPath ] withRowAnimation:UITableViewRowAnimationNone];
