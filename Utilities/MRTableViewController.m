@@ -13,7 +13,7 @@
 #pragma mark - Public
 
 //To be overriden by subclass
-- (void)textField:(UITextField*)textField didUpdateAtIndexPath:(NSIndexPath*)indexPath
+- (void)textFieldDidEndEditing:(UITextField*)textField inRowAtIndexPath:(NSIndexPath*)indexPath
 {
 }
 
@@ -21,19 +21,20 @@
 
 - (void)textFieldDidEndEditing:(UITextField*)textField
 {
-    UITableViewCell* cell = [self cellFor:textField];
+    [self.tableView endEditing:YES];
+    UITableViewCell* cell = [self parentCellFor:textField];
     NSIndexPath* indexPath = [self.tableView indexPathForCell:cell];
-	[self.tableView endEditing:YES];
-	[self textField:textField didUpdateAtIndexPath:indexPath];
+	[self textFieldDidEndEditing:textField inRowAtIndexPath:indexPath];
+	[self.tableView reloadRowsAtIndexPaths:@[ indexPath ] withRowAnimation:UITableViewRowAnimationNone];
 }
 
-- (UITableViewCell*)cellFor:(UIView*)view
+- (UITableViewCell*)parentCellFor:(UIView*)view
 {
     if (!view)
         return nil;
     if ([view isMemberOfClass:[UITableViewCell class]])
          return (UITableViewCell*)view;
-    return [self cellFor:view.superview];
+    return [self parentCellFor:view.superview];
 }
 
 @end
