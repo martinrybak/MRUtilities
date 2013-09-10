@@ -10,6 +10,4 @@
 
 @interface MRTableViewController : UITableViewController <UITextFieldDelegate>
 
-- (void)textFieldDidEndEditing:(UITextField*)textField inRowAtIndexPath:(NSIndexPath*)indexPath;
-
 @end
