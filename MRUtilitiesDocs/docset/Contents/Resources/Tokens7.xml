@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSString+Helpers.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSString(Helpers)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+Helpers.h</DeclaredIn>
+            
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/isNilOrEmpty:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+Helpers.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isNilOrEmpty:(NSString *)string</Declaration>
+			
+			
+			<Anchor>//api/name/isNilOrEmpty:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/contains:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+Helpers.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)contains:(NSString *)substring</Declaration>
+			
+			
+			<Anchor>//api/name/contains:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/trim</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+Helpers.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)trim</Declaration>
+			
+			
+			<Anchor>//api/name/trim</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/isPrice</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+Helpers.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isPrice</Declaration>
+			
+			
+			<Anchor>//api/name/isPrice</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/isNumeric</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+Helpers.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isNumeric</Declaration>
+			
+			
+			<Anchor>//api/name/isNumeric</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/matches:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+Helpers.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)matches:(NSString *)pattern</Declaration>
+			
+			
+			<Anchor>//api/name/matches:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

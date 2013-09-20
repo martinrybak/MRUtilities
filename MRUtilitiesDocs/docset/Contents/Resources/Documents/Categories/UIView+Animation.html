@@ -1,0 +1,769 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>UIView(Animation) Category Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 961)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">MRUtilities </a></h1>
+				<a id="developerHome" href="../index.html">Your Name</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">UIView(Animation) Category Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/getCenter:">&nbsp;&nbsp;&nbsp;&nbsp;+ getCenter:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/animateRotation:duration:">&nbsp;&nbsp;&nbsp;&nbsp;- animateRotation:duration:</option>
+	
+	<option value="//api/name/animateRotation:duration:completion:">&nbsp;&nbsp;&nbsp;&nbsp;- animateRotation:duration:completion:</option>
+	
+	<option value="//api/name/animateRotation:duration:options:completion:">&nbsp;&nbsp;&nbsp;&nbsp;- animateRotation:duration:options:completion:</option>
+	
+	<option value="//api/name/animateTo:duration:">&nbsp;&nbsp;&nbsp;&nbsp;- animateTo:duration:</option>
+	
+	<option value="//api/name/animateTo:duration:completion:">&nbsp;&nbsp;&nbsp;&nbsp;- animateTo:duration:completion:</option>
+	
+	<option value="//api/name/animateTo:duration:options:completion:">&nbsp;&nbsp;&nbsp;&nbsp;- animateTo:duration:options:completion:</option>
+	
+	<option value="//api/name/containsPoint:">&nbsp;&nbsp;&nbsp;&nbsp;- containsPoint:</option>
+	
+	<option value="//api/name/moveOffBottom">&nbsp;&nbsp;&nbsp;&nbsp;- moveOffBottom</option>
+	
+	<option value="//api/name/moveOffLeft">&nbsp;&nbsp;&nbsp;&nbsp;- moveOffLeft</option>
+	
+	<option value="//api/name/moveOffRight">&nbsp;&nbsp;&nbsp;&nbsp;- moveOffRight</option>
+	
+	<option value="//api/name/moveOffTop">&nbsp;&nbsp;&nbsp;&nbsp;- moveOffTop</option>
+	
+	<option value="//api/name/moveTo:">&nbsp;&nbsp;&nbsp;&nbsp;- moveTo:</option>
+	
+	<option value="//api/name/offBottom">&nbsp;&nbsp;&nbsp;&nbsp;- offBottom</option>
+	
+	<option value="//api/name/offLeft">&nbsp;&nbsp;&nbsp;&nbsp;- offLeft</option>
+	
+	<option value="//api/name/offRight">&nbsp;&nbsp;&nbsp;&nbsp;- offRight</option>
+	
+	<option value="//api/name/offTop">&nbsp;&nbsp;&nbsp;&nbsp;- offTop</option>
+	
+	<option value="//api/name/pause">&nbsp;&nbsp;&nbsp;&nbsp;- pause</option>
+	
+	<option value="//api/name/performAnimation:">&nbsp;&nbsp;&nbsp;&nbsp;- performAnimation:</option>
+	
+	<option value="//api/name/performAnimation:afterDelay:andAfter:">&nbsp;&nbsp;&nbsp;&nbsp;- performAnimation:afterDelay:andAfter:</option>
+	
+	<option value="//api/name/printBounds:">&nbsp;&nbsp;&nbsp;&nbsp;- printBounds:</option>
+	
+	<option value="//api/name/printFrame:">&nbsp;&nbsp;&nbsp;&nbsp;- printFrame:</option>
+	
+	<option value="//api/name/resume">&nbsp;&nbsp;&nbsp;&nbsp;- resume</option>
+	
+	<option value="//api/name/rotate:">&nbsp;&nbsp;&nbsp;&nbsp;- rotate:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getCenter:">getCenter:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/animateRotation:duration:">animateRotation:duration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/animateRotation:duration:completion:">animateRotation:duration:completion:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/animateRotation:duration:options:completion:">animateRotation:duration:options:completion:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/animateTo:duration:">animateTo:duration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/animateTo:duration:completion:">animateTo:duration:completion:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/animateTo:duration:options:completion:">animateTo:duration:options:completion:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/containsPoint:">containsPoint:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/moveOffBottom">moveOffBottom</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/moveOffLeft">moveOffLeft</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/moveOffRight">moveOffRight</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/moveOffTop">moveOffTop</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/moveTo:">moveTo:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/offBottom">offBottom</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/offLeft">offLeft</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/offRight">offRight</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/offTop">offTop</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pause">pause</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/performAnimation:">performAnimation:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/performAnimation:afterDelay:andAfter:">performAnimation:afterDelay:andAfter:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/printBounds:">printBounds:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/printFrame:">printFrame:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/resume">resume</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/rotate:">rotate:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="UIView(Animation) Category Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">UIView(Animation) Category Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">UIView+Animation.h<br />UIView+Animation.m</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/animateTo:duration:">&ndash;&nbsp;animateTo:duration:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/animateTo:duration:completion:">&ndash;&nbsp;animateTo:duration:completion:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/animateTo:duration:options:completion:">&ndash;&nbsp;animateTo:duration:options:completion:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/animateRotation:duration:">&ndash;&nbsp;animateRotation:duration:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/animateRotation:duration:completion:">&ndash;&nbsp;animateRotation:duration:completion:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/animateRotation:duration:options:completion:">&ndash;&nbsp;animateRotation:duration:options:completion:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/performAnimation:afterDelay:andAfter:">&ndash;&nbsp;performAnimation:afterDelay:andAfter:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/rotate:">&ndash;&nbsp;rotate:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/moveTo:">&ndash;&nbsp;moveTo:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/moveOffRight">&ndash;&nbsp;moveOffRight</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/moveOffLeft">&ndash;&nbsp;moveOffLeft</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/moveOffBottom">&ndash;&nbsp;moveOffBottom</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/moveOffTop">&ndash;&nbsp;moveOffTop</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/offRight">&ndash;&nbsp;offRight</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/offLeft">&ndash;&nbsp;offLeft</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/offTop">&ndash;&nbsp;offTop</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/offBottom">&ndash;&nbsp;offBottom</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/containsPoint:">&ndash;&nbsp;containsPoint:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getCenter:">+&nbsp;getCenter:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/printFrame:">&ndash;&nbsp;printFrame:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/printBounds:">&ndash;&nbsp;printBounds:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pause">&ndash;&nbsp;pause</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/resume">&ndash;&nbsp;resume</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/performAnimation:">&ndash;&nbsp;performAnimation:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/getCenter:" title="getCenter:"></a>
+	<h3 class="subsubtitle method-title">getCenter:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CGPoint)getCenter:(CGRect)<em>rect</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/animateRotation:duration:" title="animateRotation:duration:"></a>
+	<h3 class="subsubtitle method-title">animateRotation:duration:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)animateRotation:(float)<em>degrees</em> duration:(float)<em>duration</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/animateRotation:duration:completion:" title="animateRotation:duration:completion:"></a>
+	<h3 class="subsubtitle method-title">animateRotation:duration:completion:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)animateRotation:(float)<em>degrees</em> duration:(float)<em>duration</em> completion:(void ( ^ ) ( BOOL finished ))<em>completion</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/animateRotation:duration:options:completion:" title="animateRotation:duration:options:completion:"></a>
+	<h3 class="subsubtitle method-title">animateRotation:duration:options:completion:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)animateRotation:(float)<em>degrees</em> duration:(float)<em>duration</em> options:(UIViewAnimationOptions)<em>options</em> completion:(void ( ^ ) ( BOOL finished ))<em>completion</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/animateTo:duration:" title="animateTo:duration:"></a>
+	<h3 class="subsubtitle method-title">animateTo:duration:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)animateTo:(CGPoint)<em>point</em> duration:(float)<em>duration</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/animateTo:duration:completion:" title="animateTo:duration:completion:"></a>
+	<h3 class="subsubtitle method-title">animateTo:duration:completion:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)animateTo:(CGPoint)<em>point</em> duration:(float)<em>duration</em> completion:(void ( ^ ) ( BOOL finished ))<em>completion</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/animateTo:duration:options:completion:" title="animateTo:duration:options:completion:"></a>
+	<h3 class="subsubtitle method-title">animateTo:duration:options:completion:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)animateTo:(CGPoint)<em>point</em> duration:(float)<em>duration</em> options:(UIViewAnimationOptions)<em>options</em> completion:(void ( ^ ) ( BOOL finished ))<em>completion</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/containsPoint:" title="containsPoint:"></a>
+	<h3 class="subsubtitle method-title">containsPoint:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)containsPoint:(CGPoint)<em>point</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/moveOffBottom" title="moveOffBottom"></a>
+	<h3 class="subsubtitle method-title">moveOffBottom</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)moveOffBottom</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/moveOffLeft" title="moveOffLeft"></a>
+	<h3 class="subsubtitle method-title">moveOffLeft</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)moveOffLeft</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/moveOffRight" title="moveOffRight"></a>
+	<h3 class="subsubtitle method-title">moveOffRight</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)moveOffRight</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/moveOffTop" title="moveOffTop"></a>
+	<h3 class="subsubtitle method-title">moveOffTop</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)moveOffTop</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/moveTo:" title="moveTo:"></a>
+	<h3 class="subsubtitle method-title">moveTo:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)moveTo:(CGPoint)<em>point</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/offBottom" title="offBottom"></a>
+	<h3 class="subsubtitle method-title">offBottom</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CGRect)offBottom</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/offLeft" title="offLeft"></a>
+	<h3 class="subsubtitle method-title">offLeft</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CGRect)offLeft</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/offRight" title="offRight"></a>
+	<h3 class="subsubtitle method-title">offRight</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CGRect)offRight</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/offTop" title="offTop"></a>
+	<h3 class="subsubtitle method-title">offTop</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CGRect)offTop</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pause" title="pause"></a>
+	<h3 class="subsubtitle method-title">pause</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)pause</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/performAnimation:" title="performAnimation:"></a>
+	<h3 class="subsubtitle method-title">performAnimation:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)performAnimation:(NSArray *)<em>parameters</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/performAnimation:afterDelay:andAfter:" title="performAnimation:afterDelay:andAfter:"></a>
+	<h3 class="subsubtitle method-title">performAnimation:afterDelay:andAfter:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)performAnimation:(CAAnimation *)<em>animation</em> afterDelay:(NSTimeInterval)<em>delay</em> andAfter:(void ( ^ ) ( void ))<em>action</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/printBounds:" title="printBounds:"></a>
+	<h3 class="subsubtitle method-title">printBounds:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)printBounds:(NSString *)<em>identifier</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/printFrame:" title="printFrame:"></a>
+	<h3 class="subsubtitle method-title">printFrame:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)printFrame:(NSString *)<em>identifier</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/resume" title="resume"></a>
+	<h3 class="subsubtitle method-title">resume</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)resume</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/rotate:" title="rotate:"></a>
+	<h3 class="subsubtitle method-title">rotate:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)rotate:(float)<em>degrees</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Your Name. All rights reserved. (Last updated: 2013-09-20)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 961)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

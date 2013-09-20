@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSString+CoreLocation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSString(CoreLocation)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+CoreLocation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/coordinate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+CoreLocation.h</DeclaredIn>
+			
+			<Declaration>- (CLLocationCoordinate2D)coordinate</Declaration>
+			
+			
+			<Anchor>//api/name/coordinate</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/coordinateObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+CoreLocation.h</DeclaredIn>
+			
+			<Declaration>- (NSValue *)coordinateObject</Declaration>
+			
+			
+			<Anchor>//api/name/coordinateObject</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/stringFromCoordinate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+CoreLocation.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)stringFromCoordinate:(CLLocationCoordinate2D)coordinate</Declaration>
+			
+			
+			<Anchor>//api/name/stringFromCoordinate:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/stringFromCoordinateObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+CoreLocation.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)stringFromCoordinateObject:(NSValue *)object</Declaration>
+			
+			
+			<Anchor>//api/name/stringFromCoordinateObject:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

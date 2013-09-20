@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIView+Bounce.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIView(Bounce)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Bounce.h</DeclaredIn>
+            
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/addSubviewWithBounce:from:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Bounce.h</DeclaredIn>
+			
+			<Declaration>- (void)addSubviewWithBounce:(UIView *)view from:(Direction)direction</Declaration>
+			
+			
+			<Anchor>//api/name/addSubviewWithBounce:from:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/addSubviewWithBounce:from:completion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Bounce.h</DeclaredIn>
+			
+			<Declaration>- (void)addSubviewWithBounce:(UIView *)view from:(Direction)direction completion:(void ( ^ ) ( BOOL finished ))completion</Declaration>
+			
+			
+			<Anchor>//api/name/addSubviewWithBounce:from:completion:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/addSubviewWithBounce:from:duration:delay:completion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Bounce.h</DeclaredIn>
+			
+			<Declaration>- (void)addSubviewWithBounce:(UIView *)view from:(Direction)direction duration:(NSTimeInterval)duration delay:(NSTimeInterval)delay completion:(void ( ^ ) ( BOOL finished ))completion</Declaration>
+			
+			
+			<Anchor>//api/name/addSubviewWithBounce:from:duration:delay:completion:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/removeWithBounceTo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Bounce.h</DeclaredIn>
+			
+			<Declaration>- (void)removeWithBounceTo:(Direction)direction</Declaration>
+			
+			
+			<Anchor>//api/name/removeWithBounceTo:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/removeWithBounceTo:completion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Bounce.h</DeclaredIn>
+			
+			<Declaration>- (void)removeWithBounceTo:(Direction)direction completion:(void ( ^ ) ( BOOL finished ))completion</Declaration>
+			
+			
+			<Anchor>//api/name/removeWithBounceTo:completion:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/removeWithBounceTo:duration:delay:completion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Bounce.h</DeclaredIn>
+			
+			<Declaration>- (void)removeWithBounceTo:(Direction)direction duration:(NSTimeInterval)duration delay:(NSTimeInterval)delay completion:(void ( ^ ) ( BOOL finished ))completion</Declaration>
+			
+			
+			<Anchor>//api/name/removeWithBounceTo:duration:delay:completion:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/animationDidStop:finished:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Bounce.m</DeclaredIn>
+			
+			<Declaration>- (void)animationDidStop:(CAAnimation *)animation finished:(BOOL)flag</Declaration>
+			
+			
+			<Anchor>//api/name/animationDidStop:finished:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/bounceFrom:to:axis:offset:direction:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Bounce.m</DeclaredIn>
+			
+			<Declaration>+ (CAAnimation *)bounceFrom:(float)startPosition to:(float)endPosition axis:(Axis)axis offset:(float)offset direction:(Direction)direction</Declaration>
+			
+			
+			<Anchor>//api/name/bounceFrom:to:axis:offset:direction:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/bounceTo:from:axis:offset:direction:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Bounce.m</DeclaredIn>
+			
+			<Declaration>+ (CAAnimation *)bounceTo:(float)endPosition from:(float)startPosition axis:(Axis)axis offset:(float)offset direction:(Direction)direction</Declaration>
+			
+			
+			<Anchor>//api/name/bounceTo:from:axis:offset:direction:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/bounceIn</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Bounce.m</DeclaredIn>
+			
+			<Declaration>+ (CAAnimation *)bounceIn</Declaration>
+			
+			
+			<Anchor>//api/name/bounceIn</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/bounceOut</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Bounce.m</DeclaredIn>
+			
+			<Declaration>+ (CAAnimation *)bounceOut</Declaration>
+			
+			
+			<Anchor>//api/name/bounceOut</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

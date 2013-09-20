@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MRTextField.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MRTextField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTextField.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRTextField/setMaxLength:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTextField.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) int maxLength</Declaration>
+			
+			
+			<Anchor>//api/name/maxLength</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRTextField/maxLength</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTextField.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) int maxLength</Declaration>
+			
+			
+			<Anchor>//api/name/maxLength</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MRTextField/maxLength</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTextField.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) int maxLength</Declaration>
+			
+			
+			<Anchor>//api/name/maxLength</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRTextField/setDefaultText:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTextField.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *defaultText</Declaration>
+			
+			
+			<Anchor>//api/name/defaultText</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRTextField/defaultText</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTextField.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *defaultText</Declaration>
+			
+			
+			<Anchor>//api/name/defaultText</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MRTextField/defaultText</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTextField.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *defaultText</Declaration>
+			
+			
+			<Anchor>//api/name/defaultText</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRTextField/hasValue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTextField.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)hasValue</Declaration>
+			
+			
+			<Anchor>//api/name/hasValue</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRTextField/initWithFrame:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTextField.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithFrame:(CGRect)frame</Declaration>
+			
+			
+			<Anchor>//api/name/initWithFrame:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRTextField/initWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTextField.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithCoder:(NSCoder *)aDecoder</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCoder:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRTextField/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTextField.m</DeclaredIn>
+			
+			<Declaration>- (id&lt;UITextFieldDelegate&gt;)delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRTextField/setDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTextField.m</DeclaredIn>
+			
+			<Declaration>- (void)setDelegate:(id&lt;UITextFieldDelegate&gt;)delegate</Declaration>
+			
+			
+			<Anchor>//api/name/setDelegate:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRTextField/textFieldShouldBeginEditing:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTextField.m</DeclaredIn>
+			
+			<Declaration>- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldShouldBeginEditing:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRTextField/textFieldDidBeginEditing:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTextField.m</DeclaredIn>
+			
+			<Declaration>- (void)textFieldDidBeginEditing:(UITextField *)textField</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldDidBeginEditing:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRTextField/textFieldShouldEndEditing:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTextField.m</DeclaredIn>
+			
+			<Declaration>- (BOOL)textFieldShouldEndEditing:(UITextField *)textField</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldShouldEndEditing:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRTextField/textFieldDidEndEditing:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTextField.m</DeclaredIn>
+			
+			<Declaration>- (void)textFieldDidEndEditing:(UITextField *)textField</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldDidEndEditing:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRTextField/textField:shouldChangeCharactersInRange:replacementString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTextField.m</DeclaredIn>
+			
+			<Declaration>- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string</Declaration>
+			
+			
+			<Anchor>//api/name/textField:shouldChangeCharactersInRange:replacementString:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRTextField/textFieldShouldClear:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTextField.m</DeclaredIn>
+			
+			<Declaration>- (BOOL)textFieldShouldClear:(UITextField *)textField</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldShouldClear:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRTextField/textFieldShouldReturn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTextField.m</DeclaredIn>
+			
+			<Declaration>- (BOOL)textFieldShouldReturn:(UITextField *)textField</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldShouldReturn:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRTextField/setup</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTextField.m</DeclaredIn>
+			
+			<Declaration>- (void)setup</Declaration>
+			
+			
+			<Anchor>//api/name/setup</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRTextField/setTextFieldDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTextField.m</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) id&lt;UITextFieldDelegate&gt; textFieldDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldDelegate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRTextField/textFieldDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTextField.m</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) id&lt;UITextFieldDelegate&gt; textFieldDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldDelegate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MRTextField/textFieldDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTextField.m</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) id&lt;UITextFieldDelegate&gt; textFieldDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldDelegate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

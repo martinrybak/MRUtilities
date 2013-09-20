@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIView+Animation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIView(Animation)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/animateTo:duration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.h</DeclaredIn>
+			
+			<Declaration>- (void)animateTo:(CGPoint)point duration:(float)duration</Declaration>
+			
+			
+			<Anchor>//api/name/animateTo:duration:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/animateTo:duration:completion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.h</DeclaredIn>
+			
+			<Declaration>- (void)animateTo:(CGPoint)point duration:(float)duration completion:(void ( ^ ) ( BOOL finished ))completion</Declaration>
+			
+			
+			<Anchor>//api/name/animateTo:duration:completion:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/animateTo:duration:options:completion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.h</DeclaredIn>
+			
+			<Declaration>- (void)animateTo:(CGPoint)point duration:(float)duration options:(UIViewAnimationOptions)options completion:(void ( ^ ) ( BOOL finished ))completion</Declaration>
+			
+			
+			<Anchor>//api/name/animateTo:duration:options:completion:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/animateRotation:duration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.h</DeclaredIn>
+			
+			<Declaration>- (void)animateRotation:(float)degrees duration:(float)duration</Declaration>
+			
+			
+			<Anchor>//api/name/animateRotation:duration:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/animateRotation:duration:completion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.h</DeclaredIn>
+			
+			<Declaration>- (void)animateRotation:(float)degrees duration:(float)duration completion:(void ( ^ ) ( BOOL finished ))completion</Declaration>
+			
+			
+			<Anchor>//api/name/animateRotation:duration:completion:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/animateRotation:duration:options:completion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.h</DeclaredIn>
+			
+			<Declaration>- (void)animateRotation:(float)degrees duration:(float)duration options:(UIViewAnimationOptions)options completion:(void ( ^ ) ( BOOL finished ))completion</Declaration>
+			
+			
+			<Anchor>//api/name/animateRotation:duration:options:completion:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/performAnimation:afterDelay:andAfter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.h</DeclaredIn>
+			
+			<Declaration>- (void)performAnimation:(CAAnimation *)animation afterDelay:(NSTimeInterval)delay andAfter:(void ( ^ ) ( void ))action</Declaration>
+			
+			
+			<Anchor>//api/name/performAnimation:afterDelay:andAfter:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/rotate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.h</DeclaredIn>
+			
+			<Declaration>- (void)rotate:(float)degrees</Declaration>
+			
+			
+			<Anchor>//api/name/rotate:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/moveTo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.h</DeclaredIn>
+			
+			<Declaration>- (void)moveTo:(CGPoint)point</Declaration>
+			
+			
+			<Anchor>//api/name/moveTo:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/moveOffRight</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.h</DeclaredIn>
+			
+			<Declaration>- (void)moveOffRight</Declaration>
+			
+			
+			<Anchor>//api/name/moveOffRight</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/moveOffLeft</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.h</DeclaredIn>
+			
+			<Declaration>- (void)moveOffLeft</Declaration>
+			
+			
+			<Anchor>//api/name/moveOffLeft</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/moveOffBottom</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.h</DeclaredIn>
+			
+			<Declaration>- (void)moveOffBottom</Declaration>
+			
+			
+			<Anchor>//api/name/moveOffBottom</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/moveOffTop</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.h</DeclaredIn>
+			
+			<Declaration>- (void)moveOffTop</Declaration>
+			
+			
+			<Anchor>//api/name/moveOffTop</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/offRight</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.h</DeclaredIn>
+			
+			<Declaration>- (CGRect)offRight</Declaration>
+			
+			
+			<Anchor>//api/name/offRight</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/offLeft</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.h</DeclaredIn>
+			
+			<Declaration>- (CGRect)offLeft</Declaration>
+			
+			
+			<Anchor>//api/name/offLeft</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/offTop</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.h</DeclaredIn>
+			
+			<Declaration>- (CGRect)offTop</Declaration>
+			
+			
+			<Anchor>//api/name/offTop</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/offBottom</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.h</DeclaredIn>
+			
+			<Declaration>- (CGRect)offBottom</Declaration>
+			
+			
+			<Anchor>//api/name/offBottom</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/containsPoint:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)containsPoint:(CGPoint)point</Declaration>
+			
+			
+			<Anchor>//api/name/containsPoint:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/getCenter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.h</DeclaredIn>
+			
+			<Declaration>+ (CGPoint)getCenter:(CGRect)rect</Declaration>
+			
+			
+			<Anchor>//api/name/getCenter:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/printFrame:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.h</DeclaredIn>
+			
+			<Declaration>- (void)printFrame:(NSString *)identifier</Declaration>
+			
+			
+			<Anchor>//api/name/printFrame:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/printBounds:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.h</DeclaredIn>
+			
+			<Declaration>- (void)printBounds:(NSString *)identifier</Declaration>
+			
+			
+			<Anchor>//api/name/printBounds:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/pause</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.h</DeclaredIn>
+			
+			<Declaration>- (void)pause</Declaration>
+			
+			
+			<Anchor>//api/name/pause</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/resume</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.h</DeclaredIn>
+			
+			<Declaration>- (void)resume</Declaration>
+			
+			
+			<Anchor>//api/name/resume</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/performAnimation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+Animation.m</DeclaredIn>
+			
+			<Declaration>- (void)performAnimation:(NSArray *)parameters</Declaration>
+			
+			
+			<Anchor>//api/name/performAnimation:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

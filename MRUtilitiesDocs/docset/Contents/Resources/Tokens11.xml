@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIView+XIB.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIView(XIB)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+XIB.h</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/loadFromXib</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+XIB.h</DeclaredIn>
+			
+			<Declaration>- (void)loadFromXib</Declaration>
+			
+			
+			<Anchor>//api/name/loadFromXib</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

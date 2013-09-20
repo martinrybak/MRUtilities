@@ -7,45 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B196DCC17D91AEE00E236AF /* MRTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B196DCB17D91AEE00E236AF /* MRTableViewController.m */; };
-		5B3FD5ED17C4E27100DEAC6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3FD5EC17C4E27100DEAC6B /* Foundation.framework */; };
-		5B3FD5FC17C4E27100DEAC6B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3FD5FB17C4E27100DEAC6B /* SenTestingKit.framework */; };
-		5B3FD5FE17C4E27100DEAC6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3FD5FD17C4E27100DEAC6B /* UIKit.framework */; };
-		5B3FD5FF17C4E27100DEAC6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3FD5EC17C4E27100DEAC6B /* Foundation.framework */; };
-		5B3FD60217C4E27100DEAC6B /* libMRUtilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3FD5E917C4E27100DEAC6B /* libMRUtilities.a */; };
-		5B3FD60817C4E27100DEAC6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B3FD60617C4E27100DEAC6B /* InfoPlist.strings */; };
-		5B3FD60B17C4E27100DEAC6B /* UtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FD60A17C4E27100DEAC6B /* UtilitiesTests.m */; };
-		5B3FD61A17C4E28900DEAC6B /* UIView+Bounce.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FD61517C4E28900DEAC6B /* UIView+Bounce.m */; };
-		5B3FD61B17C4E28900DEAC6B /* UIView+Bounce.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FD61517C4E28900DEAC6B /* UIView+Bounce.m */; };
-		5B3FD61C17C4E28900DEAC6B /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FD61717C4E28900DEAC6B /* UIView+Animation.m */; };
-		5B3FD61D17C4E28900DEAC6B /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FD61717C4E28900DEAC6B /* UIView+Animation.m */; };
-		5B3FD61E17C4E28900DEAC6B /* UIView+XIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FD61917C4E28900DEAC6B /* UIView+XIB.m */; };
-		5B3FD61F17C4E28900DEAC6B /* UIView+XIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FD61917C4E28900DEAC6B /* UIView+XIB.m */; };
-		5B733AD917D0B916002237FB /* NSString+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B733AD817D0B916002237FB /* NSString+Helpers.m */; };
-		5B733ADC17D16078002237FB /* MRStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B733ADB17D16078002237FB /* MRStack.m */; };
-		5B871C5917D61A2100426BC5 /* UITextField+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B871C5817D61A2100426BC5 /* UITextField+Helpers.m */; };
-		5B871C5C17D61A4D00426BC5 /* MRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B871C5B17D61A4D00426BC5 /* MRNavigationController.m */; };
-		5B94BF8617DA4B9B0081DF2F /* NSString+CoreLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B94BF8517DA4B9B0081DF2F /* NSString+CoreLocation.m */; };
-		5B94BF8817DA4BCD0081DF2F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B94BF8717DA4BCD0081DF2F /* CoreLocation.framework */; };
-		5B94BF8B17DA4BEA0081DF2F /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B94BF8A17DA4BEA0081DF2F /* NSDate+Utilities.m */; };
-		5B94BF8E17DA4DF80081DF2F /* MRTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B94BF8D17DA4DF80081DF2F /* MRTextField.m */; };
+		5B53D28717EC958E002AA998 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B53D28617EC958E002AA998 /* Foundation.framework */; };
+		5B53D29517EC958E002AA998 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B53D29417EC958E002AA998 /* XCTest.framework */; };
+		5B53D29617EC958E002AA998 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B53D28617EC958E002AA998 /* Foundation.framework */; };
+		5B53D29817EC958E002AA998 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B53D29717EC958E002AA998 /* UIKit.framework */; };
+		5B53D29B17EC958E002AA998 /* libMRUtilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B53D28317EC958E002AA998 /* libMRUtilities.a */; };
+		5B53D2A117EC958E002AA998 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B53D29F17EC958E002AA998 /* InfoPlist.strings */; };
+		5B53D2A317EC958E002AA998 /* MRUtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B53D2A217EC958E002AA998 /* MRUtilitiesTests.m */; };
+		5B53D2C217EC9820002AA998 /* MRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B53D2AD17EC9820002AA998 /* MRNavigationController.m */; };
+		5B53D2C317EC9820002AA998 /* MRStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B53D2AF17EC9820002AA998 /* MRStack.m */; };
+		5B53D2C417EC9820002AA998 /* MRTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B53D2B117EC9820002AA998 /* MRTableViewController.m */; };
+		5B53D2C517EC9820002AA998 /* MRTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B53D2B317EC9820002AA998 /* MRTextField.m */; };
+		5B53D2C617EC9820002AA998 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B53D2B517EC9820002AA998 /* NSDate+Utilities.m */; };
+		5B53D2C717EC9820002AA998 /* NSString+CoreLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B53D2B717EC9820002AA998 /* NSString+CoreLocation.m */; };
+		5B53D2C817EC9820002AA998 /* NSString+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B53D2B917EC9820002AA998 /* NSString+Helpers.m */; };
+		5B53D2C917EC9820002AA998 /* UITextField+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B53D2BB17EC9820002AA998 /* UITextField+Helpers.m */; };
+		5B53D2CA17EC9820002AA998 /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B53D2BD17EC9820002AA998 /* UIView+Animation.m */; };
+		5B53D2CB17EC9820002AA998 /* UIView+Bounce.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B53D2BF17EC9820002AA998 /* UIView+Bounce.m */; };
+		5B53D2CC17EC9820002AA998 /* UIView+XIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B53D2C117EC9820002AA998 /* UIView+XIB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5B3FD60017C4E27100DEAC6B /* PBXContainerItemProxy */ = {
+		5B53D29917EC958E002AA998 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5B3FD5E117C4E27100DEAC6B /* Project object */;
+			containerPortal = 5B53D27B17EC958E002AA998 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5B3FD5E817C4E27100DEAC6B;
-			remoteInfo = Utilities;
+			remoteGlobalIDString = 5B53D28217EC958E002AA998;
+			remoteInfo = MRUtilities;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		5B3FD5E717C4E27100DEAC6B /* CopyFiles */ = {
+		5B53D28117EC958E002AA998 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
+			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
 			);
@@ -54,148 +50,143 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5B196DCA17D91AEE00E236AF /* MRTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRTableViewController.h; sourceTree = "<group>"; };
-		5B196DCB17D91AEE00E236AF /* MRTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRTableViewController.m; sourceTree = "<group>"; };
-		5B3FD5E917C4E27100DEAC6B /* libMRUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMRUtilities.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B3FD5EC17C4E27100DEAC6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5B3FD5F017C4E27100DEAC6B /* MRUtilities-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MRUtilities-Prefix.pch"; sourceTree = "<group>"; };
-		5B3FD5FA17C4E27100DEAC6B /* MRUtilitiesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MRUtilitiesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B3FD5FB17C4E27100DEAC6B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5B3FD5FD17C4E27100DEAC6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		5B3FD60517C4E27100DEAC6B /* MRUtilitiesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MRUtilitiesTests-Info.plist"; sourceTree = "<group>"; };
-		5B3FD60717C4E27100DEAC6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5B3FD60917C4E27100DEAC6B /* UtilitiesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilitiesTests.h; sourceTree = "<group>"; };
-		5B3FD60A17C4E27100DEAC6B /* UtilitiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilitiesTests.m; sourceTree = "<group>"; };
-		5B3FD61417C4E28900DEAC6B /* UIView+Bounce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Bounce.h"; sourceTree = "<group>"; };
-		5B3FD61517C4E28900DEAC6B /* UIView+Bounce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Bounce.m"; sourceTree = "<group>"; };
-		5B3FD61617C4E28900DEAC6B /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
-		5B3FD61717C4E28900DEAC6B /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
-		5B3FD61817C4E28900DEAC6B /* UIView+XIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XIB.h"; sourceTree = "<group>"; };
-		5B3FD61917C4E28900DEAC6B /* UIView+XIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XIB.m"; sourceTree = "<group>"; };
-		5B733AD717D0B916002237FB /* NSString+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helpers.h"; sourceTree = "<group>"; };
-		5B733AD817D0B916002237FB /* NSString+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helpers.m"; sourceTree = "<group>"; };
-		5B733ADA17D16078002237FB /* MRStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRStack.h; sourceTree = "<group>"; };
-		5B733ADB17D16078002237FB /* MRStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRStack.m; sourceTree = "<group>"; };
-		5B871C5717D61A2100426BC5 /* UITextField+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Helpers.h"; sourceTree = "<group>"; };
-		5B871C5817D61A2100426BC5 /* UITextField+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Helpers.m"; sourceTree = "<group>"; };
-		5B871C5A17D61A4D00426BC5 /* MRNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRNavigationController.h; sourceTree = "<group>"; };
-		5B871C5B17D61A4D00426BC5 /* MRNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRNavigationController.m; sourceTree = "<group>"; };
-		5B94BF8417DA4B9B0081DF2F /* NSString+CoreLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CoreLocation.h"; sourceTree = "<group>"; };
-		5B94BF8517DA4B9B0081DF2F /* NSString+CoreLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CoreLocation.m"; sourceTree = "<group>"; };
-		5B94BF8717DA4BCD0081DF2F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		5B94BF8917DA4BEA0081DF2F /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
-		5B94BF8A17DA4BEA0081DF2F /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
-		5B94BF8C17DA4DF80081DF2F /* MRTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRTextField.h; sourceTree = "<group>"; };
-		5B94BF8D17DA4DF80081DF2F /* MRTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRTextField.m; sourceTree = "<group>"; };
+		5B53D28317EC958E002AA998 /* libMRUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMRUtilities.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B53D28617EC958E002AA998 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B53D28A17EC958E002AA998 /* MRUtilities-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MRUtilities-Prefix.pch"; sourceTree = "<group>"; };
+		5B53D29317EC958E002AA998 /* MRUtilitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MRUtilitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B53D29417EC958E002AA998 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5B53D29717EC958E002AA998 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5B53D29E17EC958E002AA998 /* MRUtilitiesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MRUtilitiesTests-Info.plist"; sourceTree = "<group>"; };
+		5B53D2A017EC958E002AA998 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B53D2A217EC958E002AA998 /* MRUtilitiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRUtilitiesTests.m; sourceTree = "<group>"; };
+		5B53D2AC17EC9820002AA998 /* MRNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRNavigationController.h; sourceTree = "<group>"; };
+		5B53D2AD17EC9820002AA998 /* MRNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRNavigationController.m; sourceTree = "<group>"; };
+		5B53D2AE17EC9820002AA998 /* MRStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRStack.h; sourceTree = "<group>"; };
+		5B53D2AF17EC9820002AA998 /* MRStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRStack.m; sourceTree = "<group>"; };
+		5B53D2B017EC9820002AA998 /* MRTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRTableViewController.h; sourceTree = "<group>"; };
+		5B53D2B117EC9820002AA998 /* MRTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRTableViewController.m; sourceTree = "<group>"; };
+		5B53D2B217EC9820002AA998 /* MRTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRTextField.h; sourceTree = "<group>"; };
+		5B53D2B317EC9820002AA998 /* MRTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRTextField.m; sourceTree = "<group>"; };
+		5B53D2B417EC9820002AA998 /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
+		5B53D2B517EC9820002AA998 /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
+		5B53D2B617EC9820002AA998 /* NSString+CoreLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CoreLocation.h"; sourceTree = "<group>"; };
+		5B53D2B717EC9820002AA998 /* NSString+CoreLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CoreLocation.m"; sourceTree = "<group>"; };
+		5B53D2B817EC9820002AA998 /* NSString+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helpers.h"; sourceTree = "<group>"; };
+		5B53D2B917EC9820002AA998 /* NSString+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helpers.m"; sourceTree = "<group>"; };
+		5B53D2BA17EC9820002AA998 /* UITextField+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Helpers.h"; sourceTree = "<group>"; };
+		5B53D2BB17EC9820002AA998 /* UITextField+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Helpers.m"; sourceTree = "<group>"; };
+		5B53D2BC17EC9820002AA998 /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
+		5B53D2BD17EC9820002AA998 /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
+		5B53D2BE17EC9820002AA998 /* UIView+Bounce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Bounce.h"; sourceTree = "<group>"; };
+		5B53D2BF17EC9820002AA998 /* UIView+Bounce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Bounce.m"; sourceTree = "<group>"; };
+		5B53D2C017EC9820002AA998 /* UIView+XIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XIB.h"; sourceTree = "<group>"; };
+		5B53D2C117EC9820002AA998 /* UIView+XIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XIB.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5B3FD5E617C4E27100DEAC6B /* Frameworks */ = {
+		5B53D28017EC958E002AA998 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B94BF8817DA4BCD0081DF2F /* CoreLocation.framework in Frameworks */,
-				5B3FD5ED17C4E27100DEAC6B /* Foundation.framework in Frameworks */,
+				5B53D28717EC958E002AA998 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B3FD5F617C4E27100DEAC6B /* Frameworks */ = {
+		5B53D29017EC958E002AA998 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B3FD5FC17C4E27100DEAC6B /* SenTestingKit.framework in Frameworks */,
-				5B3FD5FE17C4E27100DEAC6B /* UIKit.framework in Frameworks */,
-				5B3FD5FF17C4E27100DEAC6B /* Foundation.framework in Frameworks */,
-				5B3FD60217C4E27100DEAC6B /* libMRUtilities.a in Frameworks */,
+				5B53D29517EC958E002AA998 /* XCTest.framework in Frameworks */,
+				5B53D29B17EC958E002AA998 /* libMRUtilities.a in Frameworks */,
+				5B53D29817EC958E002AA998 /* UIKit.framework in Frameworks */,
+				5B53D29617EC958E002AA998 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5B3FD5E017C4E27100DEAC6B = {
+		5B53D27A17EC958E002AA998 = {
 			isa = PBXGroup;
 			children = (
-				5B3FD5EE17C4E27100DEAC6B /* Utilities */,
-				5B3FD60317C4E27100DEAC6B /* UtilitiesTests */,
-				5B3FD5EB17C4E27100DEAC6B /* Frameworks */,
-				5B3FD5EA17C4E27100DEAC6B /* Products */,
+				5B53D28817EC958E002AA998 /* MRUtilities */,
+				5B53D29C17EC958E002AA998 /* MRUtilitiesTests */,
+				5B53D28517EC958E002AA998 /* Frameworks */,
+				5B53D28417EC958E002AA998 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5B3FD5EA17C4E27100DEAC6B /* Products */ = {
+		5B53D28417EC958E002AA998 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B3FD5E917C4E27100DEAC6B /* libMRUtilities.a */,
-				5B3FD5FA17C4E27100DEAC6B /* MRUtilitiesTests.octest */,
+				5B53D28317EC958E002AA998 /* libMRUtilities.a */,
+				5B53D29317EC958E002AA998 /* MRUtilitiesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5B3FD5EB17C4E27100DEAC6B /* Frameworks */ = {
+		5B53D28517EC958E002AA998 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5B94BF8717DA4BCD0081DF2F /* CoreLocation.framework */,
-				5B3FD5EC17C4E27100DEAC6B /* Foundation.framework */,
-				5B3FD5FB17C4E27100DEAC6B /* SenTestingKit.framework */,
-				5B3FD5FD17C4E27100DEAC6B /* UIKit.framework */,
+				5B53D28617EC958E002AA998 /* Foundation.framework */,
+				5B53D29417EC958E002AA998 /* XCTest.framework */,
+				5B53D29717EC958E002AA998 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5B3FD5EE17C4E27100DEAC6B /* Utilities */ = {
+		5B53D28817EC958E002AA998 /* MRUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				5B871C5A17D61A4D00426BC5 /* MRNavigationController.h */,
-				5B871C5B17D61A4D00426BC5 /* MRNavigationController.m */,
-				5B733ADA17D16078002237FB /* MRStack.h */,
-				5B733ADB17D16078002237FB /* MRStack.m */,
-				5B196DCA17D91AEE00E236AF /* MRTableViewController.h */,
-				5B196DCB17D91AEE00E236AF /* MRTableViewController.m */,
-				5B94BF8C17DA4DF80081DF2F /* MRTextField.h */,
-				5B94BF8D17DA4DF80081DF2F /* MRTextField.m */,
-				5B94BF8917DA4BEA0081DF2F /* NSDate+Utilities.h */,
-				5B94BF8A17DA4BEA0081DF2F /* NSDate+Utilities.m */,
-				5B94BF8417DA4B9B0081DF2F /* NSString+CoreLocation.h */,
-				5B94BF8517DA4B9B0081DF2F /* NSString+CoreLocation.m */,
-				5B733AD717D0B916002237FB /* NSString+Helpers.h */,
-				5B733AD817D0B916002237FB /* NSString+Helpers.m */,
-				5B871C5717D61A2100426BC5 /* UITextField+Helpers.h */,
-				5B871C5817D61A2100426BC5 /* UITextField+Helpers.m */,
-				5B3FD61617C4E28900DEAC6B /* UIView+Animation.h */,
-				5B3FD61717C4E28900DEAC6B /* UIView+Animation.m */,
-				5B3FD61417C4E28900DEAC6B /* UIView+Bounce.h */,
-				5B3FD61517C4E28900DEAC6B /* UIView+Bounce.m */,
-				5B3FD61817C4E28900DEAC6B /* UIView+XIB.h */,
-				5B3FD61917C4E28900DEAC6B /* UIView+XIB.m */,
-				5B3FD5EF17C4E27100DEAC6B /* Supporting Files */,
+				5B53D2AC17EC9820002AA998 /* MRNavigationController.h */,
+				5B53D2AD17EC9820002AA998 /* MRNavigationController.m */,
+				5B53D2AE17EC9820002AA998 /* MRStack.h */,
+				5B53D2AF17EC9820002AA998 /* MRStack.m */,
+				5B53D2B017EC9820002AA998 /* MRTableViewController.h */,
+				5B53D2B117EC9820002AA998 /* MRTableViewController.m */,
+				5B53D2B217EC9820002AA998 /* MRTextField.h */,
+				5B53D2B317EC9820002AA998 /* MRTextField.m */,
+				5B53D2B417EC9820002AA998 /* NSDate+Utilities.h */,
+				5B53D2B517EC9820002AA998 /* NSDate+Utilities.m */,
+				5B53D2B617EC9820002AA998 /* NSString+CoreLocation.h */,
+				5B53D2B717EC9820002AA998 /* NSString+CoreLocation.m */,
+				5B53D2B817EC9820002AA998 /* NSString+Helpers.h */,
+				5B53D2B917EC9820002AA998 /* NSString+Helpers.m */,
+				5B53D2BA17EC9820002AA998 /* UITextField+Helpers.h */,
+				5B53D2BB17EC9820002AA998 /* UITextField+Helpers.m */,
+				5B53D2BC17EC9820002AA998 /* UIView+Animation.h */,
+				5B53D2BD17EC9820002AA998 /* UIView+Animation.m */,
+				5B53D2BE17EC9820002AA998 /* UIView+Bounce.h */,
+				5B53D2BF17EC9820002AA998 /* UIView+Bounce.m */,
+				5B53D2C017EC9820002AA998 /* UIView+XIB.h */,
+				5B53D2C117EC9820002AA998 /* UIView+XIB.m */,
+				5B53D28917EC958E002AA998 /* Supporting Files */,
 			);
-			path = Utilities;
+			path = MRUtilities;
 			sourceTree = "<group>";
 		};
-		5B3FD5EF17C4E27100DEAC6B /* Supporting Files */ = {
+		5B53D28917EC958E002AA998 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5B3FD5F017C4E27100DEAC6B /* MRUtilities-Prefix.pch */,
+				5B53D28A17EC958E002AA998 /* MRUtilities-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5B3FD60317C4E27100DEAC6B /* UtilitiesTests */ = {
+		5B53D29C17EC958E002AA998 /* MRUtilitiesTests */ = {
 			isa = PBXGroup;
 			children = (
-				5B3FD60917C4E27100DEAC6B /* UtilitiesTests.h */,
-				5B3FD60A17C4E27100DEAC6B /* UtilitiesTests.m */,
-				5B3FD60417C4E27100DEAC6B /* Supporting Files */,
+				5B53D2A217EC958E002AA998 /* MRUtilitiesTests.m */,
+				5B53D29D17EC958E002AA998 /* Supporting Files */,
 			);
-			path = UtilitiesTests;
+			path = MRUtilitiesTests;
 			sourceTree = "<group>";
 		};
-		5B3FD60417C4E27100DEAC6B /* Supporting Files */ = {
+		5B53D29D17EC958E002AA998 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5B3FD60517C4E27100DEAC6B /* MRUtilitiesTests-Info.plist */,
-				5B3FD60617C4E27100DEAC6B /* InfoPlist.strings */,
+				5B53D29E17EC958E002AA998 /* MRUtilitiesTests-Info.plist */,
+				5B53D29F17EC958E002AA998 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -203,82 +194,82 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5B3FD5E817C4E27100DEAC6B /* MRUtilities */ = {
+		5B53D28217EC958E002AA998 /* MRUtilities */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B3FD60E17C4E27100DEAC6B /* Build configuration list for PBXNativeTarget "MRUtilities" */;
+			buildConfigurationList = 5B53D2A617EC958E002AA998 /* Build configuration list for PBXNativeTarget "MRUtilities" */;
 			buildPhases = (
-				5B3FD5E517C4E27100DEAC6B /* Sources */,
-				5B3FD5E617C4E27100DEAC6B /* Frameworks */,
-				5B3FD5E717C4E27100DEAC6B /* CopyFiles */,
+				5B53D27F17EC958E002AA998 /* Sources */,
+				5B53D28017EC958E002AA998 /* Frameworks */,
+				5B53D28117EC958E002AA998 /* CopyFiles */,
+				5B53D2CD17EC9941002AA998 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = MRUtilities;
-			productName = Utilities;
-			productReference = 5B3FD5E917C4E27100DEAC6B /* libMRUtilities.a */;
+			productName = MRUtilities;
+			productReference = 5B53D28317EC958E002AA998 /* libMRUtilities.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		5B3FD5F917C4E27100DEAC6B /* MRUtilitiesTests */ = {
+		5B53D29217EC958E002AA998 /* MRUtilitiesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B3FD61117C4E27100DEAC6B /* Build configuration list for PBXNativeTarget "MRUtilitiesTests" */;
+			buildConfigurationList = 5B53D2A917EC958E002AA998 /* Build configuration list for PBXNativeTarget "MRUtilitiesTests" */;
 			buildPhases = (
-				5B3FD5F517C4E27100DEAC6B /* Sources */,
-				5B3FD5F617C4E27100DEAC6B /* Frameworks */,
-				5B3FD5F717C4E27100DEAC6B /* Resources */,
-				5B3FD5F817C4E27100DEAC6B /* ShellScript */,
+				5B53D28F17EC958E002AA998 /* Sources */,
+				5B53D29017EC958E002AA998 /* Frameworks */,
+				5B53D29117EC958E002AA998 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5B3FD60117C4E27100DEAC6B /* PBXTargetDependency */,
+				5B53D29A17EC958E002AA998 /* PBXTargetDependency */,
 			);
 			name = MRUtilitiesTests;
-			productName = UtilitiesTests;
-			productReference = 5B3FD5FA17C4E27100DEAC6B /* MRUtilitiesTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productName = MRUtilitiesTests;
+			productReference = 5B53D29317EC958E002AA998 /* MRUtilitiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5B3FD5E117C4E27100DEAC6B /* Project object */ = {
+		5B53D27B17EC958E002AA998 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Martin Rybak";
 			};
-			buildConfigurationList = 5B3FD5E417C4E27100DEAC6B /* Build configuration list for PBXProject "MRUtilities" */;
+			buildConfigurationList = 5B53D27E17EC958E002AA998 /* Build configuration list for PBXProject "MRUtilities" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 5B3FD5E017C4E27100DEAC6B;
-			productRefGroup = 5B3FD5EA17C4E27100DEAC6B /* Products */;
+			mainGroup = 5B53D27A17EC958E002AA998;
+			productRefGroup = 5B53D28417EC958E002AA998 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B3FD5E817C4E27100DEAC6B /* MRUtilities */,
-				5B3FD5F917C4E27100DEAC6B /* MRUtilitiesTests */,
+				5B53D28217EC958E002AA998 /* MRUtilities */,
+				5B53D29217EC958E002AA998 /* MRUtilitiesTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5B3FD5F717C4E27100DEAC6B /* Resources */ = {
+		5B53D29117EC958E002AA998 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B3FD60817C4E27100DEAC6B /* InfoPlist.strings in Resources */,
+				5B53D2A117EC958E002AA998 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5B3FD5F817C4E27100DEAC6B /* ShellScript */ = {
+		5B53D2CD17EC9941002AA998 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -289,55 +280,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+			shellScript = "#Generate documentation if in release mode\nif [ ${CONFIGURATION} == \"Release\" ]; then\n/usr/bin/appledoc \\\n--project-name ${PRODUCT_NAME} \\\n--project-company \"Your Name\" \\\n--company-id \"com.yourcompany\" \\\n--output ${PRODUCT_NAME}Docs \\\n--keep-undocumented-objects \\\n--keep-undocumented-members \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--logformat xcode \\\n--exit-threshold 2 \\\n${PROJECT_DIR}/${PRODUCT_NAME}\nfi;";
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5B3FD5E517C4E27100DEAC6B /* Sources */ = {
+		5B53D27F17EC958E002AA998 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B3FD61A17C4E28900DEAC6B /* UIView+Bounce.m in Sources */,
-				5B3FD61C17C4E28900DEAC6B /* UIView+Animation.m in Sources */,
-				5B3FD61E17C4E28900DEAC6B /* UIView+XIB.m in Sources */,
-				5B733AD917D0B916002237FB /* NSString+Helpers.m in Sources */,
-				5B733ADC17D16078002237FB /* MRStack.m in Sources */,
-				5B871C5917D61A2100426BC5 /* UITextField+Helpers.m in Sources */,
-				5B871C5C17D61A4D00426BC5 /* MRNavigationController.m in Sources */,
-				5B196DCC17D91AEE00E236AF /* MRTableViewController.m in Sources */,
-				5B94BF8617DA4B9B0081DF2F /* NSString+CoreLocation.m in Sources */,
-				5B94BF8B17DA4BEA0081DF2F /* NSDate+Utilities.m in Sources */,
-				5B94BF8E17DA4DF80081DF2F /* MRTextField.m in Sources */,
+				5B53D2C517EC9820002AA998 /* MRTextField.m in Sources */,
+				5B53D2CC17EC9820002AA998 /* UIView+XIB.m in Sources */,
+				5B53D2C417EC9820002AA998 /* MRTableViewController.m in Sources */,
+				5B53D2C217EC9820002AA998 /* MRNavigationController.m in Sources */,
+				5B53D2CA17EC9820002AA998 /* UIView+Animation.m in Sources */,
+				5B53D2C817EC9820002AA998 /* NSString+Helpers.m in Sources */,
+				5B53D2C717EC9820002AA998 /* NSString+CoreLocation.m in Sources */,
+				5B53D2C917EC9820002AA998 /* UITextField+Helpers.m in Sources */,
+				5B53D2C317EC9820002AA998 /* MRStack.m in Sources */,
+				5B53D2CB17EC9820002AA998 /* UIView+Bounce.m in Sources */,
+				5B53D2C617EC9820002AA998 /* NSDate+Utilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B3FD5F517C4E27100DEAC6B /* Sources */ = {
+		5B53D28F17EC958E002AA998 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B3FD60B17C4E27100DEAC6B /* UtilitiesTests.m in Sources */,
-				5B3FD61B17C4E28900DEAC6B /* UIView+Bounce.m in Sources */,
-				5B3FD61D17C4E28900DEAC6B /* UIView+Animation.m in Sources */,
-				5B3FD61F17C4E28900DEAC6B /* UIView+XIB.m in Sources */,
+				5B53D2A317EC958E002AA998 /* MRUtilitiesTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5B3FD60117C4E27100DEAC6B /* PBXTargetDependency */ = {
+		5B53D29A17EC958E002AA998 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5B3FD5E817C4E27100DEAC6B /* MRUtilities */;
-			targetProxy = 5B3FD60017C4E27100DEAC6B /* PBXContainerItemProxy */;
+			target = 5B53D28217EC958E002AA998 /* MRUtilities */;
+			targetProxy = 5B53D29917EC958E002AA998 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5B3FD60617C4E27100DEAC6B /* InfoPlist.strings */ = {
+		5B53D29F17EC958E002AA998 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5B3FD60717C4E27100DEAC6B /* en */,
+				5B53D2A017EC958E002AA998 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -345,17 +333,22 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5B3FD60C17C4E27100DEAC6B /* Debug */ = {
+		5B53D2A417EC958E002AA998 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -366,123 +359,143 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		5B3FD60D17C4E27100DEAC6B /* Release */ = {
+		5B53D2A517EC958E002AA998 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		5B3FD60F17C4E27100DEAC6B /* Debug */ = {
+		5B53D2A717EC958E002AA998 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DSTROOT = /tmp/Utilities.dst;
+				DSTROOT = /tmp/MRUtilities.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Utilities/MRUtilities-Prefix.pch";
+				GCC_PREFIX_HEADER = "MRUtilities/MRUtilities-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = MRUtilities;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		5B3FD61017C4E27100DEAC6B /* Release */ = {
+		5B53D2A817EC958E002AA998 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DSTROOT = /tmp/Utilities.dst;
+				DSTROOT = /tmp/MRUtilities.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Utilities/MRUtilities-Prefix.pch";
+				GCC_PREFIX_HEADER = "MRUtilities/MRUtilities-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = MRUtilities;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		5B3FD61217C4E27100DEAC6B /* Debug */ = {
+		5B53D2AA17EC958E002AA998 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Utilities/Utilities-Prefix.pch";
-				INFOPLIST_FILE = "UtilitiesTests/MRUtilitiesTests-Info.plist";
-				PRODUCT_NAME = MRUtilitiesTests;
-				WRAPPER_EXTENSION = octest;
+				GCC_PREFIX_HEADER = "MRUtilities/MRUtilities-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MRUtilitiesTests/MRUtilitiesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		5B3FD61317C4E27100DEAC6B /* Release */ = {
+		5B53D2AB17EC958E002AA998 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Utilities/Utilities-Prefix.pch";
-				INFOPLIST_FILE = "UtilitiesTests/MRUtilitiesTests-Info.plist";
-				PRODUCT_NAME = MRUtilitiesTests;
-				WRAPPER_EXTENSION = octest;
+				GCC_PREFIX_HEADER = "MRUtilities/MRUtilities-Prefix.pch";
+				INFOPLIST_FILE = "MRUtilitiesTests/MRUtilitiesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B3FD5E417C4E27100DEAC6B /* Build configuration list for PBXProject "MRUtilities" */ = {
+		5B53D27E17EC958E002AA998 /* Build configuration list for PBXProject "MRUtilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B3FD60C17C4E27100DEAC6B /* Debug */,
-				5B3FD60D17C4E27100DEAC6B /* Release */,
+				5B53D2A417EC958E002AA998 /* Debug */,
+				5B53D2A517EC958E002AA998 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B3FD60E17C4E27100DEAC6B /* Build configuration list for PBXNativeTarget "MRUtilities" */ = {
+		5B53D2A617EC958E002AA998 /* Build configuration list for PBXNativeTarget "MRUtilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B3FD60F17C4E27100DEAC6B /* Debug */,
-				5B3FD61017C4E27100DEAC6B /* Release */,
+				5B53D2A717EC958E002AA998 /* Debug */,
+				5B53D2A817EC958E002AA998 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B3FD61117C4E27100DEAC6B /* Build configuration list for PBXNativeTarget "MRUtilitiesTests" */ = {
+		5B53D2A917EC958E002AA998 /* Build configuration list for PBXNativeTarget "MRUtilitiesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B3FD61217C4E27100DEAC6B /* Debug */,
-				5B3FD61317C4E27100DEAC6B /* Release */,
+				5B53D2AA17EC958E002AA998 /* Debug */,
+				5B53D2AB17EC958E002AA998 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5B3FD5E117C4E27100DEAC6B /* Project object */;
+	rootObject = 5B53D27B17EC958E002AA998 /* Project object */;
 }

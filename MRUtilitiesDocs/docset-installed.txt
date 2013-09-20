@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Volumes/DATA/Users/martin/Library/Developer/Shared/Documentation/DocSets/com.yourcompany.MRUtilities.docset
+Time: 2013-09-20 18:47:53 +0000

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MRStack.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MRStack</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRStack.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRStack/push:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRStack.h</DeclaredIn>
+			
+			<Declaration>- (void)push:(id)object</Declaration>
+			
+			
+			<Anchor>//api/name/push:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRStack/pop</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRStack.h</DeclaredIn>
+			
+			<Declaration>- (id)pop</Declaration>
+			
+			
+			<Anchor>//api/name/pop</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRStack/peek</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRStack.h</DeclaredIn>
+			
+			<Declaration>- (id)peek</Declaration>
+			
+			
+			<Anchor>//api/name/peek</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRStack/clear</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRStack.h</DeclaredIn>
+			
+			<Declaration>- (void)clear</Declaration>
+			
+			
+			<Anchor>//api/name/clear</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRStack/count</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRStack.h</DeclaredIn>
+			
+			<Declaration>- (int)count</Declaration>
+			
+			
+			<Anchor>//api/name/count</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRStack/isEmpty</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRStack.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isEmpty</Declaration>
+			
+			
+			<Anchor>//api/name/isEmpty</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRStack/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRStack.m</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRStack/setArray:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRStack.m</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSMutableArray *array</Declaration>
+			
+			
+			<Anchor>//api/name/array</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRStack/array</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRStack.m</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSMutableArray *array</Declaration>
+			
+			
+			<Anchor>//api/name/array</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MRStack/array</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRStack.m</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSMutableArray *array</Declaration>
+			
+			
+			<Anchor>//api/name/array</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>
