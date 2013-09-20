@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MRTableViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MRTableViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTableViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRTableViewController/textFieldDidEndEditing:inRowAtIndexPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTableViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)textFieldDidEndEditing:(UITextField *)textField inRowAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldDidEndEditing:inRowAtIndexPath:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRTableViewController/textFieldDidBeginEditing:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTableViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)textFieldDidBeginEditing:(UITextField *)textField</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldDidBeginEditing:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRTableViewController/textFieldDidEndEditing:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTableViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)textFieldDidEndEditing:(UITextField *)textField</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldDidEndEditing:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRTableViewController/parentCellFor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRTableViewController.m</DeclaredIn>
+			
+			<Declaration>- (UITableViewCell *)parentCellFor:(UIView *)view</Declaration>
+			
+			
+			<Anchor>//api/name/parentCellFor:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

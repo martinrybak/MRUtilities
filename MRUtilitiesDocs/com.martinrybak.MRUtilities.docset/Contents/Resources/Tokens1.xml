@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MRNavigationController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MRNavigationController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRNavigationController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRNavigationController/pushViewController:animated:completion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRNavigationController.h</DeclaredIn>
+			
+			<Declaration>- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated completion:(void ( ^ ) ( void ))completion</Declaration>
+			
+			
+			<Anchor>//api/name/pushViewController:animated:completion:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRNavigationController/setNavigationDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRNavigationController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) id&lt;MRNavigationControllerDelegate&gt; navigationDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/navigationDelegate</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRNavigationController/navigationDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRNavigationController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) id&lt;MRNavigationControllerDelegate&gt; navigationDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/navigationDelegate</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MRNavigationController/navigationDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRNavigationController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) id&lt;MRNavigationControllerDelegate&gt; navigationDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/navigationDelegate</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRNavigationController/initWithNibName:bundle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRNavigationController.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil</Declaration>
+			
+			
+			<Anchor>//api/name/initWithNibName:bundle:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRNavigationController/viewDidLoad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRNavigationController.m</DeclaredIn>
+			
+			<Declaration>- (void)viewDidLoad</Declaration>
+			
+			
+			<Anchor>//api/name/viewDidLoad</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRNavigationController/didReceiveMemoryWarning</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRNavigationController.m</DeclaredIn>
+			
+			<Declaration>- (void)didReceiveMemoryWarning</Declaration>
+			
+			
+			<Anchor>//api/name/didReceiveMemoryWarning</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRNavigationController/navigationController:didShowViewController:animated:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRNavigationController.m</DeclaredIn>
+			
+			<Declaration>- (void)navigationController:(UINavigationController *)navigationController didShowViewController:(UIViewController *)viewController animated:(BOOL)animated</Declaration>
+			
+			
+			<Anchor>//api/name/navigationController:didShowViewController:animated:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRNavigationController/setup</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRNavigationController.m</DeclaredIn>
+			
+			<Declaration>- (void)setup</Declaration>
+			
+			
+			<Anchor>//api/name/setup</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRNavigationController/setCompletion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRNavigationController.m</DeclaredIn>
+			
+			<Declaration>@property (copy, nonatomic) void ( ^ ) ( void ) completion</Declaration>
+			
+			
+			<Anchor>//api/name/completion</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRNavigationController/completion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRNavigationController.m</DeclaredIn>
+			
+			<Declaration>@property (copy, nonatomic) void ( ^ ) ( void ) completion</Declaration>
+			
+			
+			<Anchor>//api/name/completion</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MRNavigationController/completion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRNavigationController.m</DeclaredIn>
+			
+			<Declaration>@property (copy, nonatomic) void ( ^ ) ( void ) completion</Declaration>
+			
+			
+			<Anchor>//api/name/completion</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRNavigationController/setControllers:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRNavigationController.m</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSMutableArray *controllers</Declaration>
+			
+			
+			<Anchor>//api/name/controllers</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MRNavigationController/controllers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRNavigationController.m</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSMutableArray *controllers</Declaration>
+			
+			
+			<Anchor>//api/name/controllers</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MRNavigationController/controllers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRNavigationController.m</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSMutableArray *controllers</Declaration>
+			
+			
+			<Anchor>//api/name/controllers</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/MRNavigationControllerDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/MRNavigationControllerDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRNavigationController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MRNavigationControllerDelegate/backButtonPressedFrom:to:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MRNavigationController.h</DeclaredIn>
+			
+			<Declaration>- (void)backButtonPressedFrom:(UIViewController *)from to:(UIViewController *)to</Declaration>
+			
+			
+			<Anchor>//api/name/backButtonPressedFrom:to:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

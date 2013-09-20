@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSDate+Utilities.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSDate(Utilities)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDate+Utilities.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/datePart</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDate+Utilities.h</DeclaredIn>
+			
+			<Declaration>- (NSDate *)datePart</Declaration>
+			
+			
+			<Anchor>//api/name/datePart</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/timePart</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDate+Utilities.h</DeclaredIn>
+			
+			<Declaration>- (NSTimeInterval)timePart</Declaration>
+			
+			
+			<Anchor>//api/name/timePart</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/isLessThan:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDate+Utilities.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isLessThan:(NSDate *)date</Declaration>
+			
+			
+			<Anchor>//api/name/isLessThan:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/isLessThanOrEqualTo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDate+Utilities.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isLessThanOrEqualTo:(NSDate *)date</Declaration>
+			
+			
+			<Anchor>//api/name/isLessThanOrEqualTo:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/isGreaterThan:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDate+Utilities.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isGreaterThan:(NSDate *)date</Declaration>
+			
+			
+			<Anchor>//api/name/isGreaterThan:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/isGreaterThanOrEqualTo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDate+Utilities.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isGreaterThanOrEqualTo:(NSDate *)date</Declaration>
+			
+			
+			<Anchor>//api/name/isGreaterThanOrEqualTo:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/addHours:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDate+Utilities.h</DeclaredIn>
+			
+			<Declaration>- (NSDate *)addHours:(int)hours</Declaration>
+			
+			
+			<Anchor>//api/name/addHours:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>
