@@ -12,7 +12,7 @@
 		5B3FD5FC17C4E27100DEAC6B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3FD5FB17C4E27100DEAC6B /* SenTestingKit.framework */; };
 		5B3FD5FE17C4E27100DEAC6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3FD5FD17C4E27100DEAC6B /* UIKit.framework */; };
 		5B3FD5FF17C4E27100DEAC6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3FD5EC17C4E27100DEAC6B /* Foundation.framework */; };
-		5B3FD60217C4E27100DEAC6B /* libUtilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3FD5E917C4E27100DEAC6B /* libUtilities.a */; };
+		5B3FD60217C4E27100DEAC6B /* libMRUtilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3FD5E917C4E27100DEAC6B /* libMRUtilities.a */; };
 		5B3FD60817C4E27100DEAC6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B3FD60617C4E27100DEAC6B /* InfoPlist.strings */; };
 		5B3FD60B17C4E27100DEAC6B /* UtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FD60A17C4E27100DEAC6B /* UtilitiesTests.m */; };
 		5B3FD61A17C4E28900DEAC6B /* UIView+Bounce.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FD61517C4E28900DEAC6B /* UIView+Bounce.m */; };
@@ -56,13 +56,13 @@
 /* Begin PBXFileReference section */
 		5B196DCA17D91AEE00E236AF /* MRTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRTableViewController.h; sourceTree = "<group>"; };
 		5B196DCB17D91AEE00E236AF /* MRTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRTableViewController.m; sourceTree = "<group>"; };
-		5B3FD5E917C4E27100DEAC6B /* libUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUtilities.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3FD5E917C4E27100DEAC6B /* libMRUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMRUtilities.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B3FD5EC17C4E27100DEAC6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5B3FD5F017C4E27100DEAC6B /* Utilities-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Utilities-Prefix.pch"; sourceTree = "<group>"; };
-		5B3FD5FA17C4E27100DEAC6B /* UtilitiesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtilitiesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3FD5F017C4E27100DEAC6B /* MRUtilities-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MRUtilities-Prefix.pch"; sourceTree = "<group>"; };
+		5B3FD5FA17C4E27100DEAC6B /* MRUtilitiesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MRUtilitiesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B3FD5FB17C4E27100DEAC6B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		5B3FD5FD17C4E27100DEAC6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		5B3FD60517C4E27100DEAC6B /* UtilitiesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UtilitiesTests-Info.plist"; sourceTree = "<group>"; };
+		5B3FD60517C4E27100DEAC6B /* MRUtilitiesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MRUtilitiesTests-Info.plist"; sourceTree = "<group>"; };
 		5B3FD60717C4E27100DEAC6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B3FD60917C4E27100DEAC6B /* UtilitiesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilitiesTests.h; sourceTree = "<group>"; };
 		5B3FD60A17C4E27100DEAC6B /* UtilitiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilitiesTests.m; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 				5B3FD5FC17C4E27100DEAC6B /* SenTestingKit.framework in Frameworks */,
 				5B3FD5FE17C4E27100DEAC6B /* UIKit.framework in Frameworks */,
 				5B3FD5FF17C4E27100DEAC6B /* Foundation.framework in Frameworks */,
-				5B3FD60217C4E27100DEAC6B /* libUtilities.a in Frameworks */,
+				5B3FD60217C4E27100DEAC6B /* libMRUtilities.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,8 +126,8 @@
 		5B3FD5EA17C4E27100DEAC6B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B3FD5E917C4E27100DEAC6B /* libUtilities.a */,
-				5B3FD5FA17C4E27100DEAC6B /* UtilitiesTests.octest */,
+				5B3FD5E917C4E27100DEAC6B /* libMRUtilities.a */,
+				5B3FD5FA17C4E27100DEAC6B /* MRUtilitiesTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -176,7 +176,7 @@
 		5B3FD5EF17C4E27100DEAC6B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5B3FD5F017C4E27100DEAC6B /* Utilities-Prefix.pch */,
+				5B3FD5F017C4E27100DEAC6B /* MRUtilities-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -194,7 +194,7 @@
 		5B3FD60417C4E27100DEAC6B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5B3FD60517C4E27100DEAC6B /* UtilitiesTests-Info.plist */,
+				5B3FD60517C4E27100DEAC6B /* MRUtilitiesTests-Info.plist */,
 				5B3FD60617C4E27100DEAC6B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -203,9 +203,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5B3FD5E817C4E27100DEAC6B /* Utilities */ = {
+		5B3FD5E817C4E27100DEAC6B /* MRUtilities */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B3FD60E17C4E27100DEAC6B /* Build configuration list for PBXNativeTarget "Utilities" */;
+			buildConfigurationList = 5B3FD60E17C4E27100DEAC6B /* Build configuration list for PBXNativeTarget "MRUtilities" */;
 			buildPhases = (
 				5B3FD5E517C4E27100DEAC6B /* Sources */,
 				5B3FD5E617C4E27100DEAC6B /* Frameworks */,
@@ -215,14 +215,14 @@
 			);
 			dependencies = (
 			);
-			name = Utilities;
+			name = MRUtilities;
 			productName = Utilities;
-			productReference = 5B3FD5E917C4E27100DEAC6B /* libUtilities.a */;
+			productReference = 5B3FD5E917C4E27100DEAC6B /* libMRUtilities.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		5B3FD5F917C4E27100DEAC6B /* UtilitiesTests */ = {
+		5B3FD5F917C4E27100DEAC6B /* MRUtilitiesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B3FD61117C4E27100DEAC6B /* Build configuration list for PBXNativeTarget "UtilitiesTests" */;
+			buildConfigurationList = 5B3FD61117C4E27100DEAC6B /* Build configuration list for PBXNativeTarget "MRUtilitiesTests" */;
 			buildPhases = (
 				5B3FD5F517C4E27100DEAC6B /* Sources */,
 				5B3FD5F617C4E27100DEAC6B /* Frameworks */,
@@ -234,9 +234,9 @@
 			dependencies = (
 				5B3FD60117C4E27100DEAC6B /* PBXTargetDependency */,
 			);
-			name = UtilitiesTests;
+			name = MRUtilitiesTests;
 			productName = UtilitiesTests;
-			productReference = 5B3FD5FA17C4E27100DEAC6B /* UtilitiesTests.octest */;
+			productReference = 5B3FD5FA17C4E27100DEAC6B /* MRUtilitiesTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -248,7 +248,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Martin Rybak";
 			};
-			buildConfigurationList = 5B3FD5E417C4E27100DEAC6B /* Build configuration list for PBXProject "Utilities" */;
+			buildConfigurationList = 5B3FD5E417C4E27100DEAC6B /* Build configuration list for PBXProject "MRUtilities" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -260,8 +260,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B3FD5E817C4E27100DEAC6B /* Utilities */,
-				5B3FD5F917C4E27100DEAC6B /* UtilitiesTests */,
+				5B3FD5E817C4E27100DEAC6B /* MRUtilities */,
+				5B3FD5F917C4E27100DEAC6B /* MRUtilitiesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -328,7 +328,7 @@
 /* Begin PBXTargetDependency section */
 		5B3FD60117C4E27100DEAC6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5B3FD5E817C4E27100DEAC6B /* Utilities */;
+			target = 5B3FD5E817C4E27100DEAC6B /* MRUtilities */;
 			targetProxy = 5B3FD60017C4E27100DEAC6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -403,9 +403,9 @@
 			buildSettings = {
 				DSTROOT = /tmp/Utilities.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Utilities/Utilities-Prefix.pch";
+				GCC_PREFIX_HEADER = "Utilities/MRUtilities-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MRUtilities;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -415,9 +415,9 @@
 			buildSettings = {
 				DSTROOT = /tmp/Utilities.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Utilities/Utilities-Prefix.pch";
+				GCC_PREFIX_HEADER = "Utilities/MRUtilities-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MRUtilities;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -431,8 +431,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Utilities/Utilities-Prefix.pch";
-				INFOPLIST_FILE = "UtilitiesTests/UtilitiesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "UtilitiesTests/MRUtilitiesTests-Info.plist";
+				PRODUCT_NAME = MRUtilitiesTests;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -446,8 +446,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Utilities/Utilities-Prefix.pch";
-				INFOPLIST_FILE = "UtilitiesTests/UtilitiesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "UtilitiesTests/MRUtilitiesTests-Info.plist";
+				PRODUCT_NAME = MRUtilitiesTests;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
@@ -455,7 +455,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B3FD5E417C4E27100DEAC6B /* Build configuration list for PBXProject "Utilities" */ = {
+		5B3FD5E417C4E27100DEAC6B /* Build configuration list for PBXProject "MRUtilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B3FD60C17C4E27100DEAC6B /* Debug */,
@@ -464,7 +464,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B3FD60E17C4E27100DEAC6B /* Build configuration list for PBXNativeTarget "Utilities" */ = {
+		5B3FD60E17C4E27100DEAC6B /* Build configuration list for PBXNativeTarget "MRUtilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B3FD60F17C4E27100DEAC6B /* Debug */,
@@ -473,7 +473,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B3FD61117C4E27100DEAC6B /* Build configuration list for PBXNativeTarget "UtilitiesTests" */ = {
+		5B3FD61117C4E27100DEAC6B /* Build configuration list for PBXNativeTarget "MRUtilitiesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B3FD61217C4E27100DEAC6B /* Debug */,
