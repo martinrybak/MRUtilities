@@ -138,28 +138,28 @@ typedef enum
 			axis = Horizontal;
 			startValue = self.center.x;
 			endFrame = [self offLeft];
-			endValue = [UIView getCenter:endFrame].x;
+			endValue = CGRectGetCenter(endFrame).x;
             animation = [UIView bounceTo:endValue from:startValue axis:axis offset:DEFAULT_OFFSET direction:direction];
 			break;
 		case Right:
 			axis = Horizontal;
 			startValue = self.center.x;
 			endFrame = [self offRight];
-			endValue = [UIView getCenter:endFrame].x;
+			endValue = CGRectGetCenter(endFrame).x;
             animation = [UIView bounceTo:endValue from:startValue axis:axis offset:DEFAULT_OFFSET direction:direction];
 			break;
 		case Top:
 			axis = Vertical;
 			startValue = self.center.y;
 			endFrame = [self offTop];
-			endValue = [UIView getCenter:endFrame].y;
+			endValue = CGRectGetCenter(endFrame).y;
             animation = [UIView bounceTo:endValue from:startValue axis:axis offset:DEFAULT_OFFSET direction:direction];
 			break;
 		case Bottom:
 			axis = Vertical;
 			startValue = self.center.y;
 			endFrame = [self offBottom];
-			endValue = [UIView getCenter:endFrame].y;
+			endValue = CGRectGetCenter(endFrame).y;
             animation = [UIView bounceTo:endValue from:startValue axis:axis offset:DEFAULT_OFFSET direction:direction];
             break;
         case Out:

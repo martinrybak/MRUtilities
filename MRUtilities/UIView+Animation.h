@@ -29,10 +29,12 @@
 - (CGRect)offTop;
 - (CGRect)offBottom;
 - (BOOL)containsPoint:(CGPoint)point;
-+ (CGPoint)getCenter:(CGRect)rect;
 - (void)printFrame:(NSString*)identifier;
 - (void)printBounds:(NSString*)identifier;
 - (void)pause;
 - (void)resume;
+- (CGPoint)frameCenter;
+- (CGPoint)boundsCenter;
+CGPoint CGRectGetCenter(CGRect rect);
 
 @end

@@ -172,12 +172,6 @@
 	NSLog(@"%@ bounds: %f,%f,%f,%f", identifier, self.bounds.origin.x, self.bounds.origin.y, self.bounds.size.width, self.bounds.size.height);
 }
 
-+ (CGPoint)getCenter:(CGRect)rect
-{
-	return CGPointMake(rect.origin.x + rect.size.width / 2,
-					   rect.origin.y + rect.size.height / 2 );
-}
-
 - (void)pause
 {
 	CFTimeInterval pausedTime = [self.layer convertTime:CACurrentMediaTime() fromLayer:nil];
@@ -193,6 +187,22 @@
 	self.layer.beginTime = 0.0;
 	CFTimeInterval timeSincePause = [self.layer convertTime:CACurrentMediaTime() fromLayer:nil] - pausedTime;
 	self.layer.beginTime = timeSincePause;
+}
+
+- (CGPoint)frameCenter
+{
+    return CGRectGetCenter(self.frame);
+}
+
+- (CGPoint)boundsCenter
+{
+    return CGRectGetCenter(self.bounds);
+}
+
+CGPoint CGRectGetCenter(CGRect rect)
+{
+    return CGPointMake(rect.origin.x + rect.size.width / 2,
+					   rect.origin.y + rect.size.height / 2 );
 }
 
 @end
