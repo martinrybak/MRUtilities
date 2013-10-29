@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B21E5DD181FDE4A00559992 /* NSNumber+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B21E5DC181FDE4A00559992 /* NSNumber+Random.m */; };
 		5B53D28717EC958E002AA998 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B53D28617EC958E002AA998 /* Foundation.framework */; };
 		5B53D29517EC958E002AA998 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B53D29417EC958E002AA998 /* XCTest.framework */; };
 		5B53D29617EC958E002AA998 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B53D28617EC958E002AA998 /* Foundation.framework */; };
@@ -50,6 +51,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5B21E5DB181FDE4A00559992 /* NSNumber+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Random.h"; sourceTree = "<group>"; };
+		5B21E5DC181FDE4A00559992 /* NSNumber+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Random.m"; sourceTree = "<group>"; };
 		5B53D28317EC958E002AA998 /* libMRUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMRUtilities.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B53D28617EC958E002AA998 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B53D28A17EC958E002AA998 /* MRUtilities-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MRUtilities-Prefix.pch"; sourceTree = "<group>"; };
@@ -148,6 +151,8 @@
 				5B53D2B317EC9820002AA998 /* MRTextField.m */,
 				5B53D2B417EC9820002AA998 /* NSDate+Utilities.h */,
 				5B53D2B517EC9820002AA998 /* NSDate+Utilities.m */,
+				5B21E5DB181FDE4A00559992 /* NSNumber+Random.h */,
+				5B21E5DC181FDE4A00559992 /* NSNumber+Random.m */,
 				5B53D2B617EC9820002AA998 /* NSString+CoreLocation.h */,
 				5B53D2B717EC9820002AA998 /* NSString+CoreLocation.m */,
 				5B53D2B817EC9820002AA998 /* NSString+Helpers.h */,
@@ -295,6 +300,7 @@
 				5B53D2C217EC9820002AA998 /* MRNavigationController.m in Sources */,
 				5B53D2CA17EC9820002AA998 /* UIView+Animation.m in Sources */,
 				5B53D2C817EC9820002AA998 /* NSString+Helpers.m in Sources */,
+				5B21E5DD181FDE4A00559992 /* NSNumber+Random.m in Sources */,
 				5B53D2C717EC9820002AA998 /* NSString+CoreLocation.m in Sources */,
 				5B53D2C917EC9820002AA998 /* UITextField+Helpers.m in Sources */,
 				5B53D2C317EC9820002AA998 /* MRStack.m in Sources */,
