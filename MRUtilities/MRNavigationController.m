@@ -60,11 +60,11 @@
 	{
 		//This is a push
 		[self.controllers addObject:viewController];
+		
+		if (self.completion)
+			self.completion();
+		self.completion = nil;
 	}
-	
-	if (self.completion)
-		self.completion();
-	self.completion = nil;
 }
 
 #pragma mark - Private
