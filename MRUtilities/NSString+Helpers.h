@@ -16,5 +16,6 @@
 - (BOOL)isPrice;
 - (BOOL)isNumeric;
 - (BOOL)matches:(NSString*)pattern;
+- (NSString*)sanitize;
 
 @end

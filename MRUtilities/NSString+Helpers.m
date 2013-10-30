@@ -50,4 +50,9 @@
     return YES;
 }
 
+- (NSString*)sanitize
+{
+	return [self stringByReplacingOccurrencesOfString:@"'" withString:@"''"];
+}
+
 @end
