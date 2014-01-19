@@ -46,7 +46,7 @@
 {
     if (!view)
         return nil;
-    if ([view isMemberOfClass:[UITableViewCell class]])
+    if ([view isKindOfClass:[UITableViewCell class]])
          return (UITableViewCell*)view;
     return [self parentCellFor:view.superview];
 }
